@@ -1,0 +1,36 @@
+{
+  "verified": "2026-10-19",
+  "official": {
+    "scored": 60,
+    "unscored": 5,
+    "minutes": 120,
+    "passingPercent": 70,
+    "weights": {
+      "Regulations": 48,
+      "Airspace": 20,
+      "Weather": 5,
+      "Loading and performance": 2,
+      "Operations": 25
+    },
+    "sourceIds": [
+      "psi",
+      "advisory2025"
+    ]
+  },
+  "practice": {
+    "forms": [
+      "a",
+      "b"
+    ],
+    "scoredPerForm": 60,
+    "unscoredPracticePerForm": 5,
+    "allocation": {
+      "Regulations": 29,
+      "Airspace": 12,
+      "Weather": 3,
+      "Loading and performance": 1,
+      "Operations": 15
+    },
+    "note": "Original practice items, not actual FAA test questions. Five extra practice questions per form simulate the unscored-item format; they are not FAA validation questions."
+  }
+}

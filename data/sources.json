@@ -1,0 +1,158 @@
+[
+  {
+    "id": "part107",
+    "title": "14 CFR Part 107 — Small Unmanned Aircraft Systems",
+    "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "part89",
+    "title": "14 CFR Part 89 — Remote Identification of Unmanned Aircraft",
+    "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "part48",
+    "title": "14 CFR Part 48 — Registration and Marking Requirements for Small Unmanned Aircraft",
+    "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "alcohol",
+    "title": "14 CFR 91.17 — Alcohol or drugs",
+    "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91/subpart-A/section-91.17",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "acs",
+    "title": "Remote Pilot Airman Certification Standards, FAA-S-ACS-10B (topic definitions; older test-weight table superseded)",
+    "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/acs/uas_acs.pdf",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "psi",
+    "title": "PSI UAG Applicant Information Bulletin, effective September 29, 2025",
+    "url": "https://media.psiexams.com/faa/UAG_Information_Bulletin.pdf",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "advisory2025",
+    "title": "FAA Airman Testing Community Advisory, August 2025 (updated UAG blueprint)",
+    "url": "https://www.faa.gov/training_testing/testing/community_advisory_August_2025.pdf",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "advisory2026",
+    "title": "FAA Airman Testing Community Advisory, September 2026 Special Edition (embedded figures)",
+    "url": "https://www.faa.gov/training_testing/testing/September_2026_Special_Edition.pdf",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "supplement",
+    "title": "FAA-CT-8080-2H — Airman Knowledge Testing Supplement (2018)",
+    "url": "https://www.faa.gov/training_testing/testing/supplements/media/sport_rec_private_akts.pdf",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "cug",
+    "title": "FAA Aeronautical Chart Users’ Guide, effective July 9, 2026",
+    "url": "https://aeronav.faa.gov/user_guide/cug-complete_20260709.pdf",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "study",
+    "title": "FAA Remote Pilot Study Guide, FAA-G-8082-22 (weather, airport operations, performance and human factors)",
+    "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/remote_pilot_study_guide.pdf",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "oopp",
+    "title": "FAA Operations Over People General Overview",
+    "url": "https://www.faa.gov/uas/commercial_operators/operations_over_people",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "rid",
+    "title": "FAA Remote Identification of Drones",
+    "url": "https://www.faa.gov/uas/getting_started/remote_id",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "laanc",
+    "title": "FAA Low Altitude Authorization and Notification Capability",
+    "url": "https://www.faa.gov/uas/programs_partnerships/data_exchange",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "aim-airspace",
+    "title": "FAA Aeronautical Information Manual, Chapter 3 — Airspace",
+    "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap3_section_2.html",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "aim-special",
+    "title": "FAA Aeronautical Information Manual, Chapter 3 Section 4 — Special Use Airspace",
+    "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap3_section_4.html",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "aim-radio",
+    "title": "FAA Aeronautical Information Manual, Chapter 4 Section 2 — Radio Communications",
+    "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap4_section_2.html",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "aim-airport",
+    "title": "FAA Aeronautical Information Manual, Chapter 4 Section 3 — Airport Operations",
+    "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap4_section_3.html",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "aim-weather",
+    "title": "FAA Aeronautical Information Manual, Chapter 7 Section 1 — Meteorology",
+    "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_1.html",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "aim-wake",
+    "title": "FAA Aeronautical Information Manual, Chapter 7 Section 4 — Wake Turbulence",
+    "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_4.html",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "aim-physiology",
+    "title": "FAA Aeronautical Information Manual, Chapter 8 Section 1 — Medical Facts for Pilots",
+    "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "risk",
+    "title": "FAA Risk Management Handbook, FAA-H-8083-2A",
+    "url": "https://www.faa.gov/sites/faa.gov/files/2022-06/risk_management_handbook_2A.pdf",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "cert",
+    "title": "FAA Become a Certificated Remote Pilot",
+    "url": "https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "registration",
+    "title": "FAA Register Your Drone",
+    "url": "https://www.faa.gov/uas/getting_started/register_drone",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "tfr",
+    "title": "FAA Temporary Flight Restrictions",
+    "url": "https://tfr.faa.gov/",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "dc",
+    "title": "FAA Washington, D.C. Airspace",
+    "url": "https://www.faa.gov/uas/resources/community_engagement/no_drone_zone/dc",
+    "verified": "2026-10-19"
+  }
+]

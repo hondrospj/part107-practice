@@ -1,0 +1,29 @@
+[
+  {
+    "id": "faa-figure22",
+    "title": "FAA Figure 22 \u2014 Sectional chart",
+    "caption": "Northern Idaho sectional excerpt; Sandpoint, Coeur d\u2019Alene and nearby terrain. Reproduced from FAA-CT-8080-2H (2018), Appendix 2. Historical training figure; not for navigation.",
+    "src": "assets/figures/faa-figure22.png",
+    "fullUrl": "https://www.faa.gov/training_testing/testing/supplements/media/sport_rec_private_akts.pdf#page=55",
+    "sourceId": "supplement",
+    "page": 55
+  },
+  {
+    "id": "faa-figure26",
+    "title": "FAA Figure 26 \u2014 Sectional chart",
+    "caption": "North Dakota sectional excerpt; Jamestown, Cooperstown and restricted areas. Reproduced from FAA-CT-8080-2H (2018), Appendix 2. Historical training figure; not for navigation.",
+    "src": "assets/figures/faa-figure26.png",
+    "fullUrl": "https://www.faa.gov/training_testing/testing/supplements/media/sport_rec_private_akts.pdf#page=59",
+    "sourceId": "supplement",
+    "page": 59
+  },
+  {
+    "id": "faa-figure20",
+    "title": "FAA Figure 20 \u2014 Sectional chart",
+    "caption": "Virginia and North Carolina sectional excerpt; Norfolk Class C and nearby airports. Reproduced from FAA-CT-8080-2H (2018), Appendix 2. Historical training figure; not for navigation.",
+    "src": "assets/figures/faa-figure20.png",
+    "fullUrl": "https://www.faa.gov/training_testing/testing/supplements/media/sport_rec_private_akts.pdf#page=53",
+    "sourceId": "supplement",
+    "page": 53
+  }
+]

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101b2b">
+  <meta name="description" content="Two full-length Part 107 practice exams with FAA chart figures, a two-hour timer, automatic scoring and answer review.">
+  <title>Part 107 Practice</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Part 107 Practice home"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="m4 20 20-13-7 17-4-8-9 4Z"/><path d="m13 16 11-9"/></svg><span>Part 107<span class="brand-light"> / Practice</span></span></a>
+    <nav aria-label="Main"><button id="homeLink" class="nav-link">Exams</button><a href="#basics" id="basicsLink">Test-day basics</a><a id="repoLink" href="https://github.com/hondrospj/part107-practice" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav>
+  </header>
+  <div id="notice" role="status" hidden></div>
+  <main id="main" tabindex="-1">
+    <section id="loading" class="loading" aria-live="polite"><span class="loader"></span>Loading the question bank…</section>
+    <section id="home" hidden>
+      <div class="intro"><p class="eyebrow">FAA REMOTE PILOT · UAG</p><h1>Take a full practice exam.</h1><p>Answer first. Get your score, missed topics, and explanations when you finish.</p><div class="exam-facts"><span>65 questions</span><span>2 hours</span><span>70% to pass</span></div></div>
+      <div id="resumeCard" class="resume-card" hidden></div>
+      <div class="exam-cards">
+        <article class="exam-card"><div class="card-top"><span class="form-letter">A</span><span id="formAStatus" class="form-status">Fresh exam</span></div><h2>Exam A</h2><p>A complete first attempt across the five tested areas.</p><button class="primary" data-start="a">Start Exam A <span aria-hidden="true">→</span></button></article>
+        <article class="exam-card"><div class="card-top"><span class="form-letter">B</span><span id="formBStatus" class="form-status">Fresh exam</span></div><h2>Exam B</h2><p>A different set of questions for your next check.</p><button class="primary" data-start="b">Start Exam B <span aria-hidden="true">→</span></button></article>
+      </div>
+      <div class="home-details">
+        <details><summary>How this practice exam works</summary><div class="details-body"><p>Each form has 60 scored questions and five unscored practice questions. You won’t see which five are unscored until you submit. <strong>42 of the 60 scored questions must be correct to reach 70%.</strong></p><p>Questions and answer choices are shuffled. Answers, flags, and the timer are saved in this browser. The clock keeps running if you leave the tab. Explanations stay hidden until you finish.</p><p>The scored questions follow PSI’s current topic weighting, rounded to whole questions: regulations 29, airspace 12, weather 3, loading and performance 1, operations 15. These are original practice questions, not an official FAA exam or a guarantee of your test-day score.</p><p>Your answers stay on this device. GitHub does not receive your score. After finishing, use <strong>Copy results</strong> to share your score in this chat.</p></div></details>
+        <details id="basics"><summary>What you need for the real test</summary><div class="details-body"><ol><li>Create an <a href="https://iacra.faa.gov/" target="_blank" rel="noopener noreferrer">IACRA account</a> and get your FAA Tracking Number (FTN).</li><li>Book <strong>Unmanned Aircraft General – Small (UAG)</strong> through <a href="https://faa.psiexams.com/faa/login" target="_blank" rel="noopener noreferrer">PSI</a>. Search ZIP <strong>08260</strong> for locations and appointments. A same-day appointment is not guaranteed.</li><li>Bring acceptable current ID and any required proof of your residential address. Check PSI’s confirmation before going.</li><li>Budget about <strong>$175</strong> for the exam; confirm the amount when booking. No required prep course or instructor endorsement is needed.</li></ol><p>The exam can be taken from age 14; the remote pilot certificate requires age 16. After a failed test, there is a 14-day waiting period before a retake. Passing the test is followed by an IACRA certificate application and TSA review.</p><p>From <strong>October 26, 2026</strong>, UAG questions can use chart images absent from the printed supplement. Practice reading the chart, not memorizing an image.</p><div class="source-links"><a href="https://media.psiexams.com/faa/UAG_Information_Bulletin.pdf" target="_blank" rel="noopener noreferrer">PSI exam bulletin ↗</a><a href="https://www.faa.gov/training_testing/testing/testing_matrix" target="_blank" rel="noopener noreferrer">FAA requirements & ID ↗</a><a href="https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot" target="_blank" rel="noopener noreferrer">FAA certification steps ↗</a><a href="https://www.faa.gov/faq/how-much-does-it-cost-get-remote-pilot-certificate" target="_blank" rel="noopener noreferrer">FAA fee information ↗</a><a href="https://www.faa.gov/training_testing/testing/September_2026_Special_Edition.pdf" target="_blank" rel="noopener noreferrer">Chart update ↗</a></div></div></details>
+        <details><summary>Sources and question bank</summary><div class="details-body"><p>Verified October 19, 2026. Reference links are available with each answer after submission. FAA chart images are reproduced with attribution; practice questions and explanations are original.</p><div id="sourceList" class="source-links"></div></div></details>
+      </div>
+    </section>
+    <section id="exam" hidden>
+      <div class="exam-toolbar"><div><p class="eyebrow" id="examName">EXAM A</p><div class="progress-text"><span id="answeredCount">0 of 65 answered</span><span class="muted">·</span><span id="flaggedCount">0 flagged</span></div></div><div class="timer-wrap"><span class="timer-label">TIME LEFT</span><span id="timer" role="timer" aria-label="Time remaining">2:00:00</span></div><button id="finishTop" class="outline">Finish exam</button></div>
+      <div class="progress-track"><div id="progressFill"></div></div>
+      <div class="exam-layout">
+        <article class="question-card" aria-labelledby="questionPrompt">
+          <div class="question-meta"><span id="questionNumber">QUESTION 1 OF 65</span><button id="flagQuestion" class="flag-button" aria-pressed="false">⚑ Flag</button></div>
+          <h1 id="questionPrompt" tabindex="-1"></h1>
+          <div id="questionFigure" hidden></div>
+          <fieldset id="answerChoices"><legend class="sr-only">Choose one answer</legend><div id="choiceList"></div></fieldset>
+          <div class="question-footer"><button id="previousQuestion" class="outline">← Previous</button><button id="clearAnswer" class="text-button">Clear answer</button><button id="nextQuestion" class="primary">Next →</button></div>
+        </article>
+        <aside class="question-sidebar"><details id="questionNavigator" open><summary>Questions <span id="navigatorCount"></span></summary><div class="navigator-legend"><span><i class="legend-dot answered"></i>Answered</span><span>⚑ Flagged</span></div><div id="questionGrid" class="question-grid"></div><button id="firstUnanswered" class="text-button">Next unanswered →</button></details><p class="sidebar-note">Your progress saves automatically.<br>The timer continues when this tab is closed.</p></aside>
+      </div>
+      <p id="timerAnnouncement" class="sr-only" role="status"></p>
+    </section>
+    <section id="results" hidden aria-labelledby="resultsTitle">
+      <div class="result-heading"><p class="eyebrow" id="resultExam">EXAM A</p><h1 id="resultsTitle" tabindex="-1">Your results</h1></div>
+      <div class="score-card"><div class="score-main"><div id="scorePercent" class="score-percent">0<span>%</span></div><div><span id="scoreStatus" class="score-status"></span><p id="scoreFraction"></p></div></div><p id="scoreAdvice" class="score-advice"></p><div class="result-stats"><span id="timeUsed"></span><span id="extraScore"></span><span id="attemptContext"></span></div><div class="result-actions"><button id="copyResults" class="primary">Copy results</button><button id="downloadResults" class="outline">Download results</button><button id="backToExams" class="text-button">Back to exams →</button></div></div>
+      <div class="topic-section"><h2>By topic</h2><div id="topicScores" class="topic-scores"></div></div>
+      <div class="review-heading"><h2>Answer review <span id="reviewCount"></span></h2><label>Show <select id="reviewFilter"><option value="missed">Missed & unanswered</option><option value="all">All questions</option><option value="flagged">Flagged questions</option><option value="extra">Unscored questions</option></select></label></div>
+      <div id="answerReview"></div><p class="result-note">70% is the FAA passing threshold. A practice score of 85% or higher gives a study buffer; it does not predict or guarantee an FAA exam result.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><span>Independent practice · Sources checked October 19, 2026</span><span>Scores stay in your browser.</span></footer>
+  <dialog id="startDialog" aria-labelledby="startTitle"><div class="dialog-body"><p class="eyebrow">READY WHEN YOU ARE</p><h2 id="startTitle">Start Exam A</h2><p>65 questions. Two hours. Answers appear after submission.</p><p id="replaceWarning" hidden>A saved attempt is in progress. Starting a new exam replaces it.</p><p class="muted">Use a quiet setting and work without looking up answers. The timer starts when you press Begin.</p><div class="dialog-actions"><button class="outline" data-close>Cancel</button><button id="beginExam" class="primary">Begin exam →</button></div></div></dialog>
+  <dialog id="finishDialog" aria-labelledby="finishTitle"><div class="dialog-body"><h2 id="finishTitle">Finish this exam?</h2><p id="finishSummary"></p><p>After submitting, you can review every answer and explanation.</p><div class="dialog-actions"><button class="outline" data-close>Keep working</button><button id="submitExam" class="primary">Submit & score</button></div></div></dialog>
+  <dialog id="figureDialog" class="figure-dialog" aria-labelledby="figureTitle"><div class="figure-dialog-heading"><h2 id="figureTitle">Chart</h2><button id="closeFigure" aria-label="Close chart" class="icon-button">×</button></div><div class="figure-tools"><label>Zoom <input id="figureZoom" type="range" min="100" max="300" step="25" value="100"></label><a id="figureFullLink" target="_blank" rel="noopener noreferrer">Open image ↗</a></div><div class="figure-scroll"><img id="largeFigure" alt=""></div><p id="figureCaption" class="figure-caption"></p></dialog>
+  <noscript><p class="noscript">Enable JavaScript to take and score the practice exam.</p></noscript>
+</body>
+</html>
