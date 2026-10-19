@@ -1,0 +1,2672 @@
+{
+  "version": "2026-10-19.1",
+  "verified": "2026-10-19",
+  "title": "Part 107 Study Guide",
+  "subtitle": "Seven one-hour lessons, recall cards, worked charts, and practice with explanations.",
+  "overview": {
+    "hours": 7,
+    "fullExamMinutes": 120,
+    "passingPercent": 70,
+    "practiceTargetPercent": 85,
+    "note": "Seven hours is a first preparation cycle. Allow a separate uninterrupted two-hour block for a fresh full exam and additional study when needed.",
+    "privacy": "Progress is stored in your own browser. This guide contains original instruction and practice, with FAA sources and public sample charts."
+  },
+  "lessons": [
+    {
+      "day": 1,
+      "slug": "operating-limits",
+      "title": "Know the limits before you launch",
+      "focus": "Operating limits, cloud-clearance math, visual line of sight, and who is responsible.",
+      "objectives": [
+        "Apply the speed, altitude, visibility, and cloud limits to a new scenario.",
+        "Explain what the remote PIC and visual observer must do.",
+        "Separate a legal limit from a safe decision for the actual conditions."
+      ],
+      "schedule": [
+        {
+          "minutes": 10,
+          "label": "Recall",
+          "task": "Without notes, try the first five cards. Say which altitude reference and unit each number uses."
+        },
+        {
+          "minutes": 20,
+          "label": "Learn",
+          "task": "Read the sections and work the cloud and structure examples on paper."
+        },
+        {
+          "minutes": 20,
+          "label": "Apply",
+          "task": "Complete the eight drills without opening the answers first. Mark correct guesses for review."
+        },
+        {
+          "minutes": 10,
+          "label": "Fix",
+          "task": "Write one corrected rule for each miss. Explain the answer aloud, then retrieve the missed cards again."
+        }
+      ],
+      "sections": [
+        {
+          "id": "D1S01",
+          "title": "Start with the numbers and their units",
+          "paragraphs": [
+            "Part 107 covers small unmanned aircraft weighing less than 55 pounds at takeoff, including the battery, payload, guards, and everything attached. Exactly 55 pounds is outside that definition. A certificate does not remove the aircraft's operating limits.",
+            "Learn each limit with its reference. The normal altitude limit is 400 feet above the ground beneath the aircraft, not 400 feet above the launch point. Visibility is observed from the control station. Groundspeed measures travel over the ground; a tailwind can increase it even when the aircraft's airspeed is unchanged."
+          ],
+          "table": {
+            "headers": [
+              "Item",
+              "Normal Part 107 limit"
+            ],
+            "rows": [
+              [
+                "Aircraft weight",
+                "Less than 55 lb at takeoff, with everything attached"
+              ],
+              [
+                "Groundspeed",
+                "No more than 87 knots or 100 mph"
+              ],
+              [
+                "Altitude",
+                "No higher than 400 ft AGL, with the structure exception below"
+              ],
+              [
+                "Flight visibility",
+                "At least 3 statute miles from the control station"
+              ],
+              [
+                "Cloud separation",
+                "At least 500 ft below and 2,000 ft horizontally"
+              ]
+            ]
+          },
+          "sourceIds": [
+            "part107"
+          ],
+          "sourceSections": [
+            "14 CFR 107.3; 107.51"
+          ]
+        },
+        {
+          "id": "D1S02",
+          "title": "Cloud clearance can make your ceiling lower",
+          "paragraphs": [
+            "The 400-foot limit and cloud-clearance limits apply together. Being below 400 feet does not make a flight legal if the aircraft is too close to a cloud. Use the same altitude reference before subtracting. A reported cloud base expressed AGL and a proposed height expressed AGL can be compared directly.",
+            "For an ordinary flight below an overcast layer, subtract 500 feet from the base, then compare that result with the ordinary 400-foot limit and any lower airspace authorization. The lowest applicable limit controls. Horizontal separation still matters beside individual clouds. Do not invent a rule allowing flight through a gap simply because the aircraft remains visible."
+          ],
+          "worked": {
+            "prompt": "An overcast base is 750 ft AGL. You have no waiver or structure exception. What is the highest altitude allowed by the normal altitude and below-cloud limits?",
+            "steps": [
+              "Required below-cloud separation is 500 ft.",
+              "750 − 500 = 250 ft AGL.",
+              "250 is lower than the normal 400 ft limit."
+            ],
+            "answer": "250 ft AGL, provided every other applicable requirement is met.",
+            "trap": "Choosing 400 ft would leave only 350 ft below the clouds."
+          },
+          "sourceIds": [
+            "part107"
+          ],
+          "sourceSections": [
+            "14 CFR 107.51(b)–(d)"
+          ]
+        },
+        {
+          "id": "D1S03",
+          "title": "The structure exception has two conditions",
+          "paragraphs": [
+            "You may exceed 400 feet AGL when the aircraft stays within a 400-foot radius of a structure and no higher than 400 feet above its immediate uppermost limit. Both conditions must hold. Once you move outside that radius, the ordinary altitude rule applies again.",
+            "This exception does not grant airspace authorization or erase cloud clearance. A LAANC authorization for 150 feet remains a 150-foot authorization beside a tall building. Also check whether the route stays clear of people, other aircraft, and any restricted airspace."
+          ],
+          "worked": {
+            "prompt": "A tower is 480 ft tall above level ground. The aircraft will remain 250 ft horizontally from it in Class G. Ignoring other limiting conditions only for this calculation, what is the altitude limit under the structure exception?",
+            "steps": [
+              "250 ft is within the permitted 400 ft radius.",
+              "Add 400 ft to the structure's 480 ft height.",
+              "480 + 400 = 880 ft AGL."
+            ],
+            "answer": "880 ft AGL under the structure exception; this is not permission to disregard the other rules.",
+            "trap": "The exception concerns distance from a structure, not distance from the pilot."
+          },
+          "sourceIds": [
+            "part107",
+            "laanc"
+          ],
+          "sourceSections": [
+            "14 CFR 107.41; 107.51(b)"
+          ]
+        },
+        {
+          "id": "D1S04",
+          "title": "Seeing a video feed is different from seeing the aircraft",
+          "paragraphs": [
+            "The remote PIC, person manipulating the controls, and any visual observer must be able to see the aircraft throughout flight using unaided vision except corrective lenses. At least the PIC and control manipulator, or the observer, must actually exercise that visual observation throughout the flight. You need enough visual information to judge location, attitude, altitude, direction, traffic, and hazards.",
+            "An observer can exercise the required observation while a pilot uses a screen, but cannot turn an ordinary Part 107 flight into a relay beyond everyone's required visual capability. Binoculars and a camera feed do not substitute for the required unaided view. If you use an observer, agree on clear communications, traffic calls, and emergency action before launch. One person cannot simultaneously serve as PIC, control manipulator, or observer for more than one drone without an applicable waiver."
+          ],
+          "sourceIds": [
+            "part107"
+          ],
+          "sourceSections": [
+            "14 CFR 107.31; 107.33; 107.35"
+          ]
+        },
+        {
+          "id": "D1S05",
+          "title": "The PIC makes the decision and stays fit to make it",
+          "paragraphs": [
+            "The remote PIC has final authority and responsibility even when a customer owns the drone or someone else moves the sticks. An uncertificated person may manipulate the controls under direct supervision only when the PIC can immediately take direct control. Before each flight, check the aircraft and the operating environment, brief the crew, confirm working control links, secure the payload, and verify enough power for the intended flight.",
+            "Do not fly with a physical or mental condition that interferes with safe operation. Alcohol rules include at least eight hours since drinking, no operating under its influence, and no blood-alcohol concentration of 0.04 or greater. Meeting the clock alone does not establish fitness. Yield to other aircraft and stay well clear; never assume a helicopter will see the drone. If an in-flight emergency requires an immediate deviation, deviate only as far as necessary and provide a written explanation if the FAA requests it."
+          ],
+          "sourceIds": [
+            "part107",
+            "alcohol"
+          ],
+          "sourceSections": [
+            "14 CFR 107.12; 107.15; 107.17; 107.19; 107.21; 107.27; 107.37; 107.49; 91.17(a)"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "D1C01",
+          "front": "What counts toward the less-than-55-lb limit?",
+          "back": "Everything on board or attached at takeoff, including battery and payload.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D1C02",
+          "front": "What is the normal altitude limit?",
+          "back": "400 ft AGL, measured above the ground beneath the aircraft; the structure exception has separate conditions.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D1C03",
+          "front": "What separation is required below clouds?",
+          "back": "At least 500 ft below the cloud.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D1C04",
+          "front": "What horizontal cloud separation is required?",
+          "back": "At least 2,000 ft horizontally.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D1C05",
+          "front": "What is the maximum groundspeed?",
+          "back": "87 knots, equivalent to 100 mph.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D1C06",
+          "front": "Where is the 3-statute-mile visibility assessed?",
+          "back": "From the location of the control station.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D1C07",
+          "front": "Who has final authority over the operation?",
+          "back": "The designated remote pilot in command, even when someone else manipulates the controls.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D1C08",
+          "front": "Can a camera feed replace the required unaided view?",
+          "back": "No. Visual-line-of-sight requirements still apply; corrective lenses are permitted.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D1C09",
+          "front": "What are the two structure-exception distances?",
+          "back": "Within a 400-ft radius of the structure and no higher than 400 ft above its immediate uppermost limit.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D1C10",
+          "front": "Does eight hours since drinking always mean fit to fly?",
+          "back": "No. You also must not be under the influence or have a BAC of 0.04 or greater, and must be fit for safe operation.",
+          "sourceIds": [
+            "part107",
+            "alcohol"
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "id": "D1Q01",
+          "prompt": "An overcast layer begins at 720 ft AGL. Without a waiver or structure exception, which proposed altitude satisfies both the normal altitude limit and clearance below the layer?",
+          "choices": [
+            "300 ft AGL",
+            "220 ft AGL",
+            "400 ft AGL"
+          ],
+          "answer": 1,
+          "explanation": "720 − 500 = 220 ft AGL. At 300 ft you would be only 420 ft below the cloud. All other operating requirements must also be satisfied.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D1Q02",
+          "prompt": "A drone is 300 ft horizontally from a 620-ft tower over level ground in Class G. No other limitation controls. What height is allowed by the structure exception?",
+          "choices": [
+            "620 ft AGL",
+            "700 ft AGL",
+            "1,020 ft AGL"
+          ],
+          "answer": 2,
+          "explanation": "The aircraft is within a 400-ft radius, so the exception permits up to 400 ft above the 620-ft structure: 1,020 ft AGL. It does not remove other applicable requirements.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D1Q03",
+          "prompt": "A pilot has waited nine hours after drinking but still feels impaired. What is the correct decision?",
+          "choices": [
+            "Do not operate while impaired.",
+            "Operate if the flight is below 200 ft.",
+            "Operate because the eight-hour period has passed."
+          ],
+          "answer": 0,
+          "explanation": "The eight-hour requirement is only one part of the alcohol rule. Operating under the influence remains prohibited, and a condition interfering with safe operation also disqualifies participation.",
+          "sourceIds": [
+            "part107",
+            "alcohol"
+          ]
+        },
+        {
+          "id": "D1Q04",
+          "prompt": "A visual observer can see the drone around a building corner, but the remote PIC cannot possibly see it from the control station. No waiver applies. Does the observer's view alone make this an ordinary compliant VLOS operation?",
+          "choices": [
+            "Yes, if communications use a radio.",
+            "No; the PIC must still have the required ability to see the aircraft.",
+            "Yes, if the drone's camera feed is uninterrupted."
+          ],
+          "answer": 1,
+          "explanation": "An observer may exercise visual observation, but the PIC, control manipulator, and any observer must retain the ability required by 107.31(a). An observer does not automatically authorize flight around an obstruction beyond the PIC's visual capability.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D1Q05",
+          "prompt": "A customer asks a supervised trainee to keep flying after the PIC determines a motor is unsafe. Who has the final operating authority?",
+          "choices": [
+            "The customer who hired the crew.",
+            "The person currently holding the controls.",
+            "The remote PIC, who must not continue an unsafe flight."
+          ],
+          "answer": 2,
+          "explanation": "The PIC has final authority. The system must be safe before flight, and flight cannot continue when the operator knows or has reason to know it is no longer safe.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D1Q06",
+          "prompt": "A drone beside a building could otherwise use the structure exception, but its airspace authorization limits it to 175 ft AGL. What is the applicable authorized height?",
+          "choices": [
+            "175 ft AGL",
+            "400 ft above the building",
+            "400 ft AGL"
+          ],
+          "answer": 0,
+          "explanation": "The structure exception does not enlarge an airspace authorization. The operation must stay within the authorization's altitude and other conditions.",
+          "sourceIds": [
+            "part107",
+            "laanc"
+          ]
+        },
+        {
+          "id": "D1Q07",
+          "prompt": "A drone is flying level beside a cloud 1,600 ft away horizontally. It remains 250 ft AGL and has 5 miles of visibility. Without a waiver, what is the problem?",
+          "choices": [
+            "Visibility must be at least 5 nautical miles.",
+            "The horizontal cloud separation is less than 2,000 ft.",
+            "Every cloud requires at least 1,000 ft of vertical separation."
+          ],
+          "answer": 1,
+          "explanation": "Normal Part 107 operations require 2,000 ft horizontal cloud separation. Being below 400 ft and having adequate visibility do not replace that requirement.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D1Q08",
+          "prompt": "An in-flight emergency requires immediate deviation from a Part 107 rule. What does 107.21 permit?",
+          "choices": [
+            "Deviation for the remainder of the job once an emergency begins.",
+            "Deviation only after the FAA gives telephone permission.",
+            "Deviation only to the extent necessary to meet the emergency."
+          ],
+          "answer": 2,
+          "explanation": "Emergency authority is limited to what is necessary. If the FAA requests it, the PIC must provide a written report of the deviation; that is different from the separate safety-event reporting requirement.",
+          "sourceIds": [
+            "part107"
+          ]
+        }
+      ],
+      "shortTitle": "Operating limits"
+    },
+    {
+      "day": 2,
+      "slug": "airspace-and-charts",
+      "title": "Read the chart and identify your airspace",
+      "focus": "MSL versus AGL, chart boundaries, airspace authorization, and real chart interpretation.",
+      "objectives": [
+        "Convert between MSL and AGL using the elevation beneath the aircraft.",
+        "Identify the airspace at the proposed position and altitude.",
+        "Explain when Part 107 airspace authorization is required and what a chart alone cannot establish."
+      ],
+      "schedule": [
+        {
+          "minutes": 10,
+          "label": "Recall",
+          "task": "Retrieve yesterday's missed cards, then state the difference between MSL and AGL before reading."
+        },
+        {
+          "minutes": 20,
+          "label": "Learn",
+          "task": "Read the airspace table and work both altitude examples. Open the chart and find each feature yourself."
+        },
+        {
+          "minutes": 20,
+          "label": "Apply",
+          "task": "Complete the eight drills. Point to the evidence on each chart before selecting an answer."
+        },
+        {
+          "minutes": 10,
+          "label": "Fix",
+          "task": "For every miss, write the feature you overlooked and the correct altitude reference. Retrieve the new cards without rereading."
+        }
+      ],
+      "sections": [
+        {
+          "id": "D2S01",
+          "title": "Ask what the altitude is measured from",
+          "paragraphs": [
+            "AGL means above ground level. MSL means above mean sea level. They are two measurements of the same position using different reference surfaces. For a simple problem, altitude MSL equals terrain elevation MSL plus height AGL. To find height AGL, subtract the terrain elevation from altitude MSL.",
+            "The ordinary drone limit is AGL. Airport elevations and most charted airspace altitudes are MSL. The airport elevation is not automatically the ground elevation everywhere nearby. If the terrain rises under the flight path while the aircraft holds the same MSL altitude, its height above the ground decreases. Read the reference attached to each number before calculating."
+          ],
+          "worked": {
+            "prompt": "Terrain directly beneath the drone is 680 ft MSL. The aircraft is at 930 ft MSL. How high is it above that terrain?",
+            "steps": [
+              "Both supplied elevations use MSL, so they can be subtracted.",
+              "930 − 680 = 250."
+            ],
+            "answer": "250 ft AGL.",
+            "trap": "930 ft MSL does not mean the drone is 930 ft above the ground."
+          },
+          "sourceIds": [
+            "cug",
+            "part107"
+          ],
+          "sourceSections": [
+            "Chart Users' Guide: Sectional Charts, airport data and airspace information; 14 CFR 107.51(b)"
+          ]
+        },
+        {
+          "id": "D2S02",
+          "title": "Identify the class at the altitude you will occupy",
+          "paragraphs": [
+            "Airspace is three-dimensional. Being inside a shelf's outline on the map does not always put a low-flying drone inside that shelf. Read the floor and ceiling. Class B and C shelf figures are normally hundreds of feet MSL: 40 over 12 means 4,000 over 1,200 ft MSL. SFC means the floor is the surface.",
+            "A blue dashed Class D boundary often has a boxed ceiling in hundreds of feet MSL. A minus sign means the stated altitude is excluded. Airspace operating hours can change the answer; check the current Chart Supplement and NOTAMs for part-time areas. Class A generally starts at 18,000 ft MSL, far beyond normal small-drone operations."
+          ],
+          "table": {
+            "headers": [
+              "Class",
+              "Common sectional depiction",
+              "Part 107 authorization"
+            ],
+            "rows": [
+              [
+                "B",
+                "Solid blue boundaries",
+                "Prior ATC authorization required inside it"
+              ],
+              [
+                "C",
+                "Solid magenta boundaries",
+                "Prior ATC authorization required inside it"
+              ],
+              [
+                "D",
+                "Dashed blue boundary",
+                "Prior ATC authorization required inside it"
+              ],
+              [
+                "E airport surface area, E2",
+                "Dashed magenta boundary",
+                "Prior ATC authorization required within its lateral boundaries"
+              ],
+              [
+                "Other E",
+                "Includes 700/1,200-ft transition areas and surface extensions",
+                "Not independently required by 107.41; verify the actual designation"
+              ],
+              [
+                "G",
+                "Uncontrolled airspace below overlying controlled airspace",
+                "No 107.41 authorization; other restrictions still apply"
+              ]
+            ]
+          },
+          "sourceIds": [
+            "part107",
+            "cug",
+            "aim-airspace",
+            "faa-e-authorizations"
+          ],
+          "sourceSections": [
+            "14 CFR 107.41; AIM 3-2; Chart Users' Guide: Airspace Information; FAA Order 7210.3, 19-6-1, Class E2 note"
+          ]
+        },
+        {
+          "id": "D2S03",
+          "title": "Learn the Class E distinction carefully",
+          "paragraphs": [
+            "Class E is controlled airspace, but not every Class E operation requires the Part 107 authorization described in 107.41. The airport surface area designated E2 does. An E4 surface extension to a Class D or E surface area does not independently trigger that requirement. Both can use dashed magenta lines, so a line's color alone is insufficient to distinguish the legal designation. Check the airport airspace information and the actual area designation.",
+            "A magenta vignette indicates Class E beginning at 700 ft AGL on its shaded side. A blue vignette can indicate a 1,200-ft AGL floor. Unless another designation changes the location, the low airspace underneath is Class G. Do not confuse the soft shaded edge with a dashed magenta surface boundary. A chart is a starting point, not proof that a specific flight is permitted today."
+          ],
+          "sourceIds": [
+            "cug",
+            "aim-airspace",
+            "faa-e-authorizations",
+            "part107"
+          ],
+          "sourceSections": [
+            "Chart Users' Guide: Class E airspace; AIM 3-2-6; FAA Order 7210.3, 19-6-1; 14 CFR 107.41"
+          ]
+        },
+        {
+          "id": "D2S04",
+          "title": "Find the evidence on an actual chart",
+          "paragraphs": [
+            "Open Figure 22 and find Sandpoint near the top. Its airport information includes 2131, the field elevation in feet MSL. The AWOS weather frequency and CTAF are different items with different jobs. A CTAF helps pilots coordinate airport traffic; listening or making a radio call does not provide a drone airspace authorization.",
+            "Obstacle labels also carry two references. Near Priest River, the obstruction labeled 2630 with (215) below it has a top elevation of 2,630 ft MSL and a height of 215 ft AGL. Subtracting the two gives the ground elevation at its base. Large two-part maximum-elevation figures describe a chart quadrangle, not permission for a drone to climb to that altitude. Use the legend instead of guessing from a number's size."
+          ],
+          "figureId": "faa-figure22",
+          "figureNote": "Historical FAA training chart; use it to practice reading symbols, not to plan a current flight.",
+          "worked": {
+            "prompt": "A training scenario places the drone 180 ft above Sandpoint's published field elevation. What MSL altitude corresponds to that position?",
+            "steps": [
+              "Read 2,131 ft MSL from the airport data.",
+              "Add the stated 180-ft height above the field: 2,131 + 180."
+            ],
+            "answer": "2,311 ft MSL. This calculation assumes the scenario's stated field reference; it does not establish surrounding terrain elevations.",
+            "trap": "The adjacent weather frequency is not an elevation, and an airport's elevation is not a blanket terrain value."
+          },
+          "sourceIds": [
+            "supplement",
+            "cug",
+            "part107"
+          ],
+          "sourceSections": [
+            "FAA-CT-8080-2H, Figure 22; Chart Users' Guide: Airport Data and Obstructions; 14 CFR 107.41"
+          ]
+        },
+        {
+          "id": "d2-modern-miv",
+          "title": "FAA September 2026 example: Millville",
+          "paragraphs": [
+            "The FAA’s September 2026 advisory asks readers to identify the airspace at Millville Municipal and decide whether a drone flight needs ATC authorization. Start with the airport symbol and the boundary around it; the answer comes from the chart, not from remembering an airport name."
+          ],
+          "figureId": "faa-miv2026",
+          "figureNote": "This is the FAA’s actual public sample image. Try the question before opening the worked answer.",
+          "worked": {
+            "prompt": "At Millville Municipal (MIV), which surface airspace applies, and must a Part 107 operation obtain ATC authorization?",
+            "steps": [
+              "Find the magenta airport symbol labeled MILLVILLE MUNI (MIV).",
+              "Read the dashed magenta airport-surface boundary. The FAA identifies this sample as airport surface Class E.",
+              "Apply the airport-surface Class E authorization requirement rather than treating every area of Class E alike."
+            ],
+            "answer": "The FAA’s keyed answer is airport surface Class E, with ATC authorization required.",
+            "trap": "A magenta airport symbol means an airport without an operating tower; it does not establish that the surrounding surface airspace is Class G."
+          },
+          "sourceIds": [
+            "advisory2026",
+            "faa-e-authorizations"
+          ],
+          "sourceSections": [
+            "FAA September 2026 advisory, page 9",
+            "FAA Order 7210.3, 19-6-1"
+          ]
+        },
+        {
+          "id": "D2S05",
+          "title": "Authorization is a separate step",
+          "paragraphs": [
+            "Request required airspace authorization through LAANC or FAA DroneZone. A UAS Facility Map grid value shows an altitude that may be authorized without further coordination; the grid itself is not approval. Read the approval's location, altitude, dates, and conditions. Do not substitute a tower radio call for the authorization process.",
+            "Also check current flight restrictions, NOTAMs, prohibited or restricted areas, and airport activity. A Class G location can still be inside a restriction, and you may not interfere with airport operations. Finish each chart task by stating three things: my position, my altitude and reference, and the applicable rule or approval."
+          ],
+          "sourceIds": [
+            "part107",
+            "laanc",
+            "tfr",
+            "faa-e-authorizations"
+          ],
+          "sourceSections": [
+            "14 CFR 107.41; 107.43; 107.45; 107.47; FAA LAANC overview"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "D2C01",
+          "front": "How do you convert MSL altitude to AGL height?",
+          "back": "Subtract terrain elevation MSL directly beneath the aircraft from the aircraft's altitude MSL.",
+          "sourceIds": [
+            "cug"
+          ]
+        },
+        {
+          "id": "D2C02",
+          "front": "What does 40 over 12 on a Class C shelf mean?",
+          "back": "A ceiling of 4,000 ft MSL and floor of 1,200 ft MSL.",
+          "sourceIds": [
+            "cug"
+          ]
+        },
+        {
+          "id": "D2C03",
+          "front": "What does SFC mean on an airspace floor label?",
+          "back": "The airspace begins at the surface.",
+          "sourceIds": [
+            "cug"
+          ]
+        },
+        {
+          "id": "D2C04",
+          "front": "Which B, C, and D drone operations require authorization?",
+          "back": "Operations inside Class B, C, or D require prior ATC authorization under 107.41.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D2C05",
+          "front": "What does a dashed blue boundary usually identify?",
+          "back": "Class D airspace. Check its ceiling and effective times.",
+          "sourceIds": [
+            "cug"
+          ]
+        },
+        {
+          "id": "D2C06",
+          "front": "What does a magenta vignette mean?",
+          "back": "Class E starts at 700 ft AGL on the shaded side, unless another airspace designation changes the location.",
+          "sourceIds": [
+            "cug"
+          ]
+        },
+        {
+          "id": "D2C07",
+          "front": "Which Class E surface designation requires 107.41 authorization?",
+          "back": "E2: the surface area designated for an airport. E4 extensions do not independently trigger that requirement.",
+          "sourceIds": [
+            "faa-e-authorizations",
+            "part107"
+          ]
+        },
+        {
+          "id": "D2C08",
+          "front": "What is the parenthesized number under an obstacle elevation?",
+          "back": "The obstacle's height above ground level; the top number is its elevation MSL.",
+          "sourceIds": [
+            "cug"
+          ]
+        },
+        {
+          "id": "D2C09",
+          "front": "Does a UAS Facility Map grid value authorize a flight?",
+          "back": "No. It supports authorization processing; obtain and follow the actual required approval.",
+          "sourceIds": [
+            "laanc"
+          ]
+        },
+        {
+          "id": "D2C10",
+          "front": "Does Class G mean no flight restrictions apply?",
+          "back": "No. Check TFRs, prohibited/restricted areas, airport activity, and all other applicable rules.",
+          "sourceIds": [
+            "part107",
+            "tfr"
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "id": "D2Q01",
+          "prompt": "A drone holds 1,060 ft MSL above terrain at 790 ft MSL. What is its height above that terrain?",
+          "choices": [
+            "270 ft AGL",
+            "790 ft AGL",
+            "1,850 ft AGL"
+          ],
+          "answer": 0,
+          "explanation": "AGL height is 1,060 − 790 = 270 ft. Both supplied values are MSL elevations, so subtract them.",
+          "sourceIds": [
+            "cug"
+          ]
+        },
+        {
+          "id": "D2Q02",
+          "prompt": "In Figure 20, the Class C shelf north of Norfolk International is labeled 40 over 12. Ignoring other designations, does that shelf itself contain a drone at 350 ft MSL?",
+          "choices": [
+            "Yes; it begins 120 ft above the ground.",
+            "Yes; every location inside the outline is Class C down to the surface.",
+            "No; this shelf begins at 1,200 ft MSL."
+          ],
+          "answer": 2,
+          "explanation": "The floor is 1,200 ft MSL. The 40/12 shelf alone does not include a position at 350 ft MSL. The complete location still needs to be checked for other airspace and restrictions.",
+          "sourceIds": [
+            "supplement",
+            "cug"
+          ],
+          "figureId": "faa-figure20"
+        },
+        {
+          "id": "D2Q03",
+          "prompt": "At a site where the only controlled airspace begins at 700 ft AGL, a drone will remain at 300 ft AGL. Which class does it occupy?",
+          "choices": [
+            "Class E, because the map is shaded magenta.",
+            "Class G below the Class E floor.",
+            "Class D below the Class E floor."
+          ],
+          "answer": 1,
+          "explanation": "With no other designation, the space below the 700-ft Class E floor is Class G. The transition area's map outline does not make Class E extend to the ground.",
+          "sourceIds": [
+            "cug",
+            "aim-airspace"
+          ]
+        },
+        {
+          "id": "D2Q04",
+          "prompt": "In Figure 22, the obstruction near Priest River is labeled 2630 with (215) beneath it. What ground elevation at the obstruction's base follows from those labels?",
+          "choices": [
+            "2,415 ft MSL",
+            "215 ft MSL",
+            "2,845 ft MSL"
+          ],
+          "answer": 0,
+          "explanation": "The top is 2,630 ft MSL and the structure is 215 ft AGL. The base is therefore 2,630 − 215 = 2,415 ft MSL.",
+          "sourceIds": [
+            "supplement",
+            "cug"
+          ],
+          "figureId": "faa-figure22"
+        },
+        {
+          "id": "D2Q05",
+          "prompt": "A current FAA designation identifies your site as an E4 surface extension, outside any E2, B, C, or D area. Does the E4 designation by itself require a 107.41 authorization?",
+          "choices": [
+            "Yes; every Class E area requires one.",
+            "Yes, unless the airport has a control tower.",
+            "No; the Class E authorization requirement applies to E2 airport surface areas."
+          ],
+          "answer": 2,
+          "explanation": "FAA airspace-authorization guidance distinguishes E2 from other Class E. An E4 extension does not independently trigger 107.41, though other rules and restrictions remain applicable.",
+          "sourceIds": [
+            "faa-e-authorizations",
+            "part107"
+          ]
+        },
+        {
+          "id": "D2Q06",
+          "prompt": "A required airspace authorization has not been issued. A UAS Facility Map shows 200 in the grid covering the site. What does that value allow you to conclude?",
+          "choices": [
+            "Any Part 107 drone may fly to 200 ft without applying.",
+            "Up to 200 ft may be eligible for approval without further ATC coordination; it is not an authorization.",
+            "The area is Class G below 200 ft."
+          ],
+          "answer": 1,
+          "explanation": "Facility Map values support the approval process. They do not establish the airspace class or replace the required authorization.",
+          "sourceIds": [
+            "laanc"
+          ]
+        },
+        {
+          "id": "D2Q07",
+          "prompt": "Using Figure 22's Sandpoint airport elevation, a training scenario places a drone 240 ft above the field. What is the resulting altitude MSL?",
+          "choices": [
+            "2,371 ft MSL",
+            "2,131 ft MSL",
+            "1,891 ft MSL"
+          ],
+          "answer": 0,
+          "explanation": "Sandpoint's published field elevation is 2,131 ft MSL. Add the scenario's 240-ft height: 2,371 ft MSL. This is a calculation from the stated field reference, not a determination of surrounding terrain.",
+          "sourceIds": [
+            "supplement",
+            "cug"
+          ],
+          "figureId": "faa-figure22"
+        },
+        {
+          "id": "D2Q08",
+          "prompt": "A part-time Class D tower closes before your planned flight. What should you use to determine the airspace that applies after closing?",
+          "choices": [
+            "Assume all airspace becomes Class G when any tower closes.",
+            "Treat the entire former Class D as permanently Class D.",
+            "Check the current Chart Supplement, chart notes, and applicable NOTAMs for the published status."
+          ],
+          "answer": 2,
+          "explanation": "A part-time Class D area may become Class E or Class G during other times. The published status determines which rules apply; tower closure alone is not a universal answer.",
+          "sourceIds": [
+            "aim-airspace",
+            "cug"
+          ]
+        }
+      ],
+      "shortTitle": "Charts and airspace"
+    },
+    {
+      "day": 3,
+      "slug": "current-operating-rules",
+      "title": "Use the current rules for the flight you are planning",
+      "focus": "Registration, Remote ID, night flight, operations over people and vehicles, recency, and reporting.",
+      "objectives": [
+        "Distinguish registration, Remote ID, recency, airspace authorization, and a waiver.",
+        "Identify the main conditions for night flight and the four operations-over-people categories.",
+        "Apply the calendar-month recency rule and safety-event reporting thresholds."
+      ],
+      "schedule": [
+        {
+          "minutes": 10,
+          "label": "Recall",
+          "task": "Retrieve Day 1 and Day 2 mistakes. Explain why Class G and staying below 400 ft do not answer every legal question."
+        },
+        {
+          "minutes": 20,
+          "label": "Learn",
+          "task": "Read the current-rule sections and compare the four people categories. Work the calendar-month example."
+        },
+        {
+          "minutes": 20,
+          "label": "Apply",
+          "task": "Complete the eight drills. For each one, name the rule that controls the answer."
+        },
+        {
+          "minutes": 10,
+          "label": "Fix",
+          "task": "Retrieve all ten cards, then write one short correction for every miss or correct guess."
+        }
+      ],
+      "sections": [
+        {
+          "id": "D3S00",
+          "title": "Passing the test and holding the certificate are separate steps",
+          "paragraphs": [
+            "For the first-time-pilot route, obtain an FAA Tracking Number through IACRA, book UAG through PSI, and bring the identification required by the current testing matrix. After passing, apply through IACRA and complete the TSA review. Passing the exam alone does not issue the remote pilot certificate."
+          ],
+          "table": {
+            "headers": [
+              "Requirement",
+              "What to remember"
+            ],
+            "rows": [
+              [
+                "Knowledge-test eligibility",
+                "Minimum age 14; no instructor endorsement is required for UAG."
+              ],
+              [
+                "Certificate eligibility",
+                "Minimum age 16; read, speak, write and understand English, with any permitted medical exception; be physically and mentally able to operate safely."
+              ],
+              [
+                "During operations",
+                "Keep the remote pilot certificate in physical possession and readily accessible. Have acceptable identification available for an authorized inspection."
+              ],
+              [
+                "Permanent mailing-address change",
+                "Notify the FAA within 30 days to continue exercising certificate privileges after that period."
+              ]
+            ]
+          },
+          "sourceIds": [
+            "part107",
+            "cert",
+            "matrix"
+          ],
+          "sourceSections": [
+            "14 CFR §§107.7, 107.61, 107.77; FAA testing matrix, UAG"
+          ]
+        },
+        {
+          "id": "D3S01",
+          "title": "Registration and Remote ID do different jobs",
+          "paragraphs": [
+            "A drone used under Part 107 must be registered even if it weighs 0.55 pounds or less. The lightweight exception often discussed online applies to qualifying recreational operations, not every small drone. Under Part 48, register each Part 107 aircraft individually, mark it externally as required, keep registration current, and have the registration certificate available as required. Registration is normally valid for three years.",
+            "Remote ID is a separate requirement for aircraft required to be registered, unless an applicable exception or FAA authorization covers the operation. The usual options are a Standard Remote ID aircraft, an approved broadcast module, or operation without Remote ID equipment inside a FRIA under its conditions. With a module, the person manipulating the controls must be able to see the aircraft throughout the operation. Inside a FRIA, both that person and the aircraft must remain within its boundaries, and the aircraft must be seen throughout. A FRIA does not cancel Part 107 airspace, people, or other operating rules. Check Remote ID before takeoff; if required broadcasting fails in flight, land as soon as practicable."
+          ],
+          "sourceIds": [
+            "part48",
+            "part89",
+            "registration",
+            "rid"
+          ],
+          "sourceSections": [
+            "14 CFR 48.15; 48.100; 48.105; 48.205; 89.101; 89.105; 89.110; 89.115"
+          ]
+        },
+        {
+          "id": "D3S02",
+          "title": "Night flight is allowed when its conditions are met",
+          "paragraphs": [
+            "Current Part 107 rules allow night operations without a night waiver when the PIC has completed the applicable updated initial test or training after April 6, 2021, and the aircraft has anti-collision lighting visible for at least three statute miles with a sufficient flash rate. Civil twilight also requires this lighting. Outside Alaska, Part 107 civil twilight is the 30 minutes before official sunrise and after official sunset.",
+            "The PIC may reduce the light's intensity for safety, but may not extinguish it under the ordinary rule. A navigation or status light is not automatically compliant anti-collision lighting. Night privileges do not waive VLOS, cloud clearance, airspace authorization, or restrictions over people."
+          ],
+          "sourceIds": [
+            "part107"
+          ],
+          "sourceSections": [
+            "14 CFR 107.29; 107.31; 107.41; 107.51"
+          ]
+        },
+        {
+          "id": "D3S03",
+          "title": "Do not treat every person on the ground as crew",
+          "paragraphs": [
+            "Under the basic rule, flight over a person is permitted if that person directly participates in the operation or is protected by a covered structure or stationary vehicle providing reasonable protection. A customer watching the job is not automatically a direct participant. Otherwise, use an applicable operations-over-people category or obtain a suitable waiver.",
+            "Category 1 depends on weight and protected rotating parts, not just a manufacturer's lightweight marketing. Categories 2 and 3 require eligible aircraft, FAA-accepted declarations of compliance, and appropriate labeling. Their injury criteria compare impact severity with a rigid object transferring 11 and 25 foot-pounds respectively; they are not simple aircraft weight limits. Category 3 prohibits operation over an open-air assembly at all. Its other operations must meet the closed-site or non-sustained-flight conditions. Sustained assembly flight under Categories 1 and 2 requires the specified Remote ID compliance. Category 4 uses a certificated aircraft and its approved operating limitations."
+          ],
+          "table": {
+            "headers": [
+              "Category",
+              "Key distinction"
+            ],
+            "rows": [
+              [
+                "1",
+                "0.55 lb or less throughout operation, including attachments; no exposed rotating parts capable of lacerating skin"
+              ],
+              [
+                "2",
+                "Eligible design; FAA-accepted declaration and label; injury severity below the 11-ft-lb criterion"
+              ],
+              [
+                "3",
+                "Eligible design; declaration and label; below the 25-ft-lb criterion; no open-air assembly overflight"
+              ],
+              [
+                "4",
+                "FAA airworthiness certificate, applicable operating limitations, and required maintenance/records"
+              ]
+            ]
+          },
+          "sourceIds": [
+            "part107",
+            "oopp"
+          ],
+          "sourceSections": [
+            "14 CFR 107.39; 107.110; 107.115; 107.120; 107.125; 107.130; 107.140"
+          ]
+        },
+        {
+          "id": "D3S04",
+          "title": "Flying over a vehicle is different from flying from one",
+          "paragraphs": [
+            "For flight over people inside moving vehicles under Categories 1–3, the aircraft must meet the category requirements and either remain within or over a closed/restricted-access site where occupants are on notice, or avoid sustained flight over moving vehicles. A quick crossing still needs an eligible category; it is not a universal exemption. Category 4 follows its certificated limitations, which must permit the operation.",
+            "Operating from a moving car or boat is another rule: under ordinary Part 107, the drone must fly over a sparsely populated area and cannot transport another person's property for compensation or hire. Operation from a moving aircraft is prohibited without applicable relief. Passing one of these rules does not automatically satisfy the other."
+          ],
+          "sourceIds": [
+            "part107"
+          ],
+          "sourceSections": [
+            "14 CFR 107.25; 107.145"
+          ]
+        },
+        {
+          "id": "D3S05",
+          "title": "The certificate does not expire every two years",
+          "paragraphs": [
+            "The remote pilot certificate and aeronautical knowledge recency are separate. To exercise PIC privileges, satisfy a qualifying test or training pathway within the preceding 24 calendar months. Current remote pilots generally renew knowledge recency through the FAA's recurrent online training rather than automatically repeating the paid initial exam. Also carry the required certificate and identification when exercising its privileges."
+          ],
+          "worked": {
+            "prompt": "A qualifying initial test was passed on March 9, 2025, with no later training. Through what date does that event satisfy the 24-calendar-month requirement?",
+            "steps": [
+              "Count 24 calendar months forward to March 2027.",
+              "The period ends on that calendar month's last day, rather than the ninth."
+            ],
+            "answer": "March 31, 2027. A new qualifying event is needed before exercising privileges afterward.",
+            "trap": "The date is not March 9, and the pilot certificate itself has not become a two-year certificate."
+          },
+          "sourceIds": [
+            "part107",
+            "cert"
+          ],
+          "sourceSections": [
+            "14 CFR 107.7; 107.65; FAA certification page: recurrent training"
+          ]
+        },
+        {
+          "id": "D3S06",
+          "title": "Know which approval or report is required",
+          "paragraphs": [
+            "An airspace authorization permits the specified operation in the airspace; a waiver permits a stated deviation from a waivable rule under its conditions. Neither is a blanket exemption. For example, ordinary night flight can meet the current rule without a waiver, while a proposed beyond-visual-line-of-sight operation needs applicable relief.",
+            "Report a qualifying safety event to the FAA within ten calendar days: serious injury, any loss of consciousness, or qualifying damage to property other than the drone. For repairable property, the threshold is repair cost greater than $500, including labor and materials; for total loss, fair market value greater than $500. Damage to the drone alone does not trigger this property threshold. An emergency-deviation explanation is instead submitted if the FAA requests one."
+          ],
+          "sourceIds": [
+            "part107"
+          ],
+          "sourceSections": [
+            "14 CFR 107.9; 107.21; 107.200; 107.205"
+          ]
+        },
+        {
+          "id": "D3S07",
+          "title": "Cargo does not create an exception to the safety rules",
+          "paragraphs": [
+            "Part 107 prohibits carrying hazardous material as defined by the applicable hazardous-material rules. It also prohibits dropping an object in a way that creates an undue hazard to people or property. The dropping rule is conditional; it is not a blanket prohibition on every object release."
+          ],
+          "sourceIds": [
+            "part107"
+          ],
+          "sourceSections": [
+            "14 CFR §§107.23(b), 107.36"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "D3C01",
+          "front": "Does a 0.40-lb Part 107 drone need registration?",
+          "back": "Yes. The small recreational-weight exception does not exempt Part 107 aircraft.",
+          "sourceIds": [
+            "part48",
+            "registration"
+          ]
+        },
+        {
+          "id": "D3C02",
+          "front": "How long is Part 48 drone registration normally valid?",
+          "back": "Three years; keep it current and comply with marking and certificate requirements.",
+          "sourceIds": [
+            "part48"
+          ]
+        },
+        {
+          "id": "D3C03",
+          "front": "What extra visibility rule applies with a Remote ID broadcast module?",
+          "back": "The person manipulating the controls must be able to see the aircraft throughout the operation.",
+          "sourceIds": [
+            "part89"
+          ]
+        },
+        {
+          "id": "D3C04",
+          "front": "What must stay inside a FRIA for its no-equipment option?",
+          "back": "Both the aircraft and the person manipulating its controls, with the aircraft seen throughout the operation.",
+          "sourceIds": [
+            "part89"
+          ]
+        },
+        {
+          "id": "D3C05",
+          "front": "What anti-collision light visibility does normal night flight require?",
+          "back": "At least three statute miles, with a flash rate sufficient to avoid a collision; applicable updated testing/training is also required.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D3C06",
+          "front": "Which people category requires an airworthiness certificate?",
+          "back": "Category 4. Follow its operating limitations and maintenance requirements as well.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D3C07",
+          "front": "Can Category 3 fly over an open-air assembly?",
+          "back": "No. The prohibition covers operation over the assembly, not only sustained flight.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D3C08",
+          "front": "How often must PIC knowledge recency be satisfied?",
+          "back": "Within the previous 24 calendar months through an applicable qualifying test or training pathway.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D3C09",
+          "front": "When is a qualifying safety event reported?",
+          "back": "To the FAA no later than ten calendar days afterward. Serious injury, loss of consciousness, or qualifying non-drone property damage triggers the rule.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D3C10",
+          "front": "Does airspace authorization waive VLOS?",
+          "back": "No. It is a separate approval; a deviation from VLOS needs applicable relief under its own conditions.",
+          "sourceIds": [
+            "part107"
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "id": "D3Q01",
+          "prompt": "A 180-gram aircraft will photograph a client's roof under Part 107. What is correct about registration?",
+          "choices": [
+            "It is exempt because it weighs less than 250 grams.",
+            "It must be registered despite its low weight.",
+            "Registration is required only if the flight enters controlled airspace."
+          ],
+          "answer": 1,
+          "explanation": "The recreational low-weight exception is not a general Part 107 exemption. Registration and airspace authorization are separate requirements.",
+          "sourceIds": [
+            "part48",
+            "registration"
+          ]
+        },
+        {
+          "id": "D3Q02",
+          "prompt": "A remote pilot completed qualifying recurrent training on July 16, 2026. With no later qualifying event, through when does it satisfy knowledge recency?",
+          "choices": [
+            "July 31, 2028",
+            "July 16, 2028",
+            "June 30, 2028"
+          ],
+          "answer": 0,
+          "explanation": "The rule uses 24 calendar months. Count to July 2028, then use that month's last day. The certificate and knowledge-recency requirement are separate.",
+          "sourceIds": [
+            "part107",
+            "cert"
+          ]
+        },
+        {
+          "id": "D3Q03",
+          "prompt": "An otherwise qualified night pilot's anti-collision light is creating glare that affects safe operation. Under the ordinary night rule, what may the PIC do?",
+          "choices": [
+            "Extinguish it whenever the drone remains visible on a screen.",
+            "Replace it with any steady battery-status light.",
+            "Reduce its intensity for safety, but not extinguish it."
+          ],
+          "answer": 2,
+          "explanation": "107.29 allows reducing the light's intensity when operating conditions make that safer. The ordinary rule expressly does not allow extinguishing it.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D3Q04",
+          "prompt": "A compliant Category 3 aircraft will cross directly over an open-air festival audience for only two seconds. Is the short duration enough to make this a permitted Category 3 operation?",
+          "choices": [
+            "Yes, because it is not sustained flight.",
+            "No; Category 3 prohibits operation over open-air assemblies.",
+            "Yes, if all attendees can see the aircraft."
+          ],
+          "answer": 1,
+          "explanation": "Category 3's open-air assembly prohibition is not limited to sustained flight. Short duration does not make this particular overflight eligible.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D3Q05",
+          "prompt": "A company wants to use Category 4 for an operation over people. Which aircraft document is essential to that category?",
+          "choices": [
+            "An FAA-issued airworthiness certificate with applicable operating limitations.",
+            "Only a Category 3 label added by the PIC.",
+            "Only a registration certificate and a Remote ID module receipt."
+          ],
+          "answer": 0,
+          "explanation": "Category 4 requires an airworthiness certificate under Part 21, along with its operating limitations and the applicable maintenance and record requirements. Registration or a module receipt is not a substitute.",
+          "sourceIds": [
+            "part107",
+            "oopp"
+          ]
+        },
+        {
+          "id": "D3Q06",
+          "prompt": "A flight damages a repairable fence. Labor and materials total $640; nobody is injured. What does the Part 107 FAA safety-event rule require?",
+          "choices": [
+            "No report because nobody was injured.",
+            "A report only if the drone also sustained more than $500 damage.",
+            "A report no later than ten calendar days after the operation."
+          ],
+          "answer": 2,
+          "explanation": "Repairable property other than the drone sustained more than $500 in repair cost, including labor and materials. That independently triggers reporting under 107.9.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D3Q07",
+          "prompt": "A pilot adds an approved Remote ID broadcast module to an otherwise eligible drone. Which condition specifically applies to operating with that module?",
+          "choices": [
+            "A visual observer can replace all visual capability of the person manipulating the controls.",
+            "The person manipulating the controls must be able to see the aircraft throughout the operation.",
+            "The module provides automatic permission for beyond-visual-line-of-sight flight."
+          ],
+          "answer": 1,
+          "explanation": "The broadcast-module operating rule requires the person manipulating the controls to be able to see the aircraft throughout the operation. It does not authorize BVLOS.",
+          "sourceIds": [
+            "part89"
+          ]
+        },
+        {
+          "id": "D3Q08",
+          "prompt": "An eligible Category 2 aircraft briefly crosses over people in moving cars on an open road, without sustained flight. Which statement correctly describes the moving-vehicle rule?",
+          "choices": [
+            "Brief crossings are always exempt from category requirements.",
+            "Operations over moving vehicles are prohibited in every circumstance.",
+            "Avoiding sustained flight can satisfy the additional Category 1–3 vehicle condition, but the Category 2 and other rules still apply."
+          ],
+          "answer": 2,
+          "explanation": "107.145 requires an applicable category. For Categories 1–3, an operation must meet the closed/restricted-site notice condition or not maintain sustained flight over moving vehicles. This is not blanket permission for any drone or flight.",
+          "sourceIds": [
+            "part107"
+          ]
+        }
+      ],
+      "shortTitle": "Current flight rules"
+    },
+    {
+      "day": 4,
+      "slug": "weather-you-can-use",
+      "title": "Weather: read it, then decide",
+      "focus": "METARs, forecasts, clouds, wind, stability and performance.",
+      "objectives": [
+        "Decode wind, visibility, cloud cover and time without mixing their reference systems.",
+        "Identify weather that makes an otherwise legal flight unsafe.",
+        "Explain what heat, elevation and humidity do to aircraft performance."
+      ],
+      "schedule": [
+        {
+          "minutes": 10,
+          "label": "Recall",
+          "task": "Recall yesterday’s missed cards first. Then say the cloud and visibility limits without looking."
+        },
+        {
+          "minutes": 20,
+          "label": "Read and work",
+          "task": "Read the weather sections. Decode the worked METAR aloud before revealing the explanation."
+        },
+        {
+          "minutes": 20,
+          "label": "Apply",
+          "task": "Answer the eight weather drills closed book. For each miss, name the mistaken rule or symbol."
+        },
+        {
+          "minutes": 10,
+          "label": "Retrieve",
+          "task": "Test the ten cards. Put every missed card in tomorrow’s review pile."
+        }
+      ],
+      "sections": [
+        {
+          "id": "d4-observation",
+          "title": "An observation is not a forecast",
+          "paragraphs": [
+            "A METAR describes observed weather at an airport. A TAF forecasts conditions for the terminal area. Check the station, issue time and validity before applying either to a launch site. Airport weather several miles away may not describe a beach, a fog bank or the wind around a building.",
+            "A trailing Z means UTC. To convert UTC to Eastern time, subtract four hours during daylight saving time or five during standard time. Keep the calendar date when the subtraction crosses midnight. METAR wind direction uses true north; runway numbers use approximate magnetic direction. Do not silently swap the two."
+          ],
+          "sourceIds": [
+            "aim-weather",
+            "study"
+          ],
+          "sourceSections": [
+            "AIM 7-1, Aviation Routine Weather Reports and Terminal Aerodrome Forecasts"
+          ]
+        },
+        {
+          "id": "d4-metar",
+          "title": "Read these groups in order",
+          "paragraphs": [
+            "The invented teaching report below is not current weather. Read the units first. Wind is in knots; visibility followed by SM is in statute miles. A wind direction names where the wind comes from. G adds a peak gust, not a second prevailing wind.",
+            "Cloud heights in these reports are hundreds of feet above the station. FEW means one or two eighths of sky covered, SCT three or four, BKN five through seven, and OVC all eight. FEW and SCT do not make a ceiling. The lowest BKN or OVC layer, or vertical visibility into an obscuration, establishes the ceiling. A low scattered layer still matters when planning cloud separation.",
+            "Useful extra groups: VRB means variable wind direction; 00000KT means calm; P6SM means visibility greater than six statute miles. RA is rain, TS a thunderstorm, FG fog and BR mist. A minus sign marks light precipitation and a plus sign heavy precipitation. Read the whole report rather than treating one favorable number as approval to fly."
+          ],
+          "sourceIds": [
+            "aim-weather",
+            "study"
+          ],
+          "table": {
+            "headers": [
+              "Group",
+              "Read it as"
+            ],
+            "rows": [
+              [
+                "181454Z",
+                "Day 18 at 1454 UTC"
+              ],
+              [
+                "08014G22KT",
+                "Wind from 080° true, 14 knots, gusting to 22 knots"
+              ],
+              [
+                "5SM BR",
+                "Five statute miles visibility in mist"
+              ],
+              [
+                "SCT008 BKN018",
+                "Scattered clouds at 800 ft AGL; broken ceiling at 1,800 ft AGL"
+              ],
+              [
+                "17/15 A3005",
+                "Temperature 17°C; dew point 15°C; altimeter 30.05 in Hg"
+              ]
+            ]
+          },
+          "worked": {
+            "prompt": "What ceiling and wind does 08014G22KT 5SM BR SCT008 BKN018 report?",
+            "steps": [
+              "Ignore SCT008 when identifying the ceiling; scattered is not a ceiling.",
+              "BKN018 is the lowest qualifying layer: 18 × 100 = 1,800 ft AGL.",
+              "Read the wind from 080° true at 14 knots, gusting to 22."
+            ],
+            "answer": "Ceiling 1,800 ft AGL; wind from 080° true at 14 knots, gusting to 22 knots.",
+            "trap": "Choosing 800 ft for the ceiling, or calling the wind magnetic."
+          }
+        },
+        {
+          "id": "d4-taf",
+          "title": "TAFs tell you when conditions change",
+          "paragraphs": [
+            "A validity group such as 1812/1912 covers day 18 at 1200 UTC through day 19 at 1200 UTC. FM181600 begins a new prevailing forecast at day 18, 1600 UTC. TEMPO1816/1820 identifies temporary fluctuations within that period. Recheck a forecast when your flight time changes.",
+            "Forecast improvements do not override observed poor conditions at launch. Under ordinary Part 107 limits, flight visibility from the control station must be at least three statute miles. Keep at least 500 feet below clouds and 2,000 feet horizontally from them. Those are minimums, not a promise that every compliant flight is sensible."
+          ],
+          "sourceIds": [
+            "aim-weather",
+            "part107"
+          ],
+          "sourceSections": [
+            "AIM 7-1, Terminal Aerodrome Forecasts",
+            "14 CFR 107.51(c)–(d)"
+          ]
+        },
+        {
+          "id": "d4-stability",
+          "title": "Stable air can still mean bad visibility",
+          "paragraphs": [
+            "Stable air resists vertical motion. An inversion, where temperature increases with height through a layer, limits mixing. Expect smoother air, haze, smoke or moisture trapped below it, and sometimes fog. Unstable air favors rising currents, turbulence and cumuliform clouds. An unstable atmosphere alone does not guarantee a thunderstorm.",
+            "Radiation fog commonly forms when the surface cools on a clear night with light winds and moist air. Advection fog forms when moist air moves over a colder surface; coastal fog can arrive despite daytime heating. A small temperature–dew point spread means saturation is close, but cooling or added moisture is still needed. Do not use the spread alone as a visibility report."
+          ],
+          "sourceIds": [
+            "study",
+            "aim-weather"
+          ]
+        },
+        {
+          "id": "d4-convection",
+          "title": "Wind is more than its average speed",
+          "paragraphs": [
+            "A thunderstorm needs moisture, instability and lift. Its gust front, turbulence, lightning and precipitation can threaten an aircraft away from the visible rain core. A microburst produces a strong downdraft and rapidly changing outflow. Postpone or land while a safe option remains; flying around the dark part of a cell is not a dependable defense.",
+            "Check gusts, wind shear and obstructions as well as steady wind. Buildings and trees disturb flow. A tailwind outbound can become a difficult headwind home, so calculate the return before spending the battery. A coastal sea breeze often develops when land heats faster than water, but local terrain and the larger weather pattern can change the actual wind."
+          ],
+          "sourceIds": [
+            "study",
+            "aim-weather"
+          ]
+        },
+        {
+          "id": "d4-density",
+          "title": "Hot, high and humid reduce performance",
+          "paragraphs": [
+            "Density altitude expresses air density as an altitude in the standard atmosphere. Higher temperature, higher elevation and increased humidity generally reduce density and raise density altitude. A propeller has less dense air to work with, and an aircraft may need more power or have less climb capability.",
+            "Use the aircraft manufacturer’s limits and performance information. A heavier payload reduces the margin further. Do not assume a successful cool morning flight proves the same load is suitable on a hot afternoon. Cold weather can reduce battery capability even though colder air is denser; battery effects and aerodynamic effects are different problems."
+          ],
+          "sourceIds": [
+            "study"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "D4C01",
+          "front": "What is the difference between a METAR and a TAF?",
+          "back": "METAR = observed airport weather. TAF = forecast terminal weather.",
+          "sourceIds": [
+            "aim-weather"
+          ]
+        },
+        {
+          "id": "D4C02",
+          "front": "Are METAR wind directions true or magnetic?",
+          "back": "True north. The direction tells you where the wind comes from.",
+          "sourceIds": [
+            "aim-weather"
+          ]
+        },
+        {
+          "id": "D4C03",
+          "front": "What does BKN023 mean?",
+          "back": "Broken clouds at 2,300 ft above the station. Broken can establish a ceiling.",
+          "sourceIds": [
+            "aim-weather"
+          ]
+        },
+        {
+          "id": "D4C04",
+          "front": "Which cloud groups establish a ceiling?",
+          "back": "The lowest broken or overcast layer, or reported vertical visibility into an obscuration.",
+          "sourceIds": [
+            "aim-weather"
+          ]
+        },
+        {
+          "id": "D4C05",
+          "front": "What does FM191500 mean in a TAF?",
+          "back": "New prevailing conditions beginning on day 19 at 1500 UTC.",
+          "sourceIds": [
+            "aim-weather"
+          ]
+        },
+        {
+          "id": "D4C06",
+          "front": "What does an inversion commonly do to mixing and visibility?",
+          "back": "Suppresses vertical mixing; haze or moisture may become trapped and visibility may worsen.",
+          "sourceIds": [
+            "study"
+          ]
+        },
+        {
+          "id": "D4C07",
+          "front": "What distinguishes advection fog?",
+          "back": "Moist air moves over a colder surface.",
+          "sourceIds": [
+            "study"
+          ]
+        },
+        {
+          "id": "D4C08",
+          "front": "What three ingredients support thunderstorms?",
+          "back": "Moisture, unstable air and a lifting mechanism.",
+          "sourceIds": [
+            "study"
+          ]
+        },
+        {
+          "id": "D4C09",
+          "front": "What happens to propeller performance as density altitude increases?",
+          "back": "It generally decreases because the air is less dense.",
+          "sourceIds": [
+            "study"
+          ]
+        },
+        {
+          "id": "D4C10",
+          "front": "Why can a tailwind outbound threaten the return?",
+          "back": "The return headwind can require more time and energy. Budget for the return before launching.",
+          "sourceIds": [
+            "study",
+            "part107"
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "id": "D4Q01",
+          "prompt": "A report includes 31009G18KT. Which interpretation is correct?",
+          "choices": [
+            "Wind from 310° true at 9 knots, gusting to 18 knots.",
+            "Wind from 310° magnetic at 9 knots, gusting to 18 knots.",
+            "Wind toward 310° true at 18 knots, with a 9-knot minimum."
+          ],
+          "answer": 0,
+          "explanation": "METAR wind is the direction from which it blows, referenced to true north. The number after G is the gust speed.",
+          "sourceIds": [
+            "aim-weather"
+          ]
+        },
+        {
+          "id": "D4Q02",
+          "prompt": "An observation reports FEW006 SCT014 BKN032 OVC060. What is its ceiling?",
+          "choices": [
+            "600 ft AGL.",
+            "1,400 ft AGL.",
+            "3,200 ft AGL."
+          ],
+          "answer": 2,
+          "explanation": "The lowest BKN or OVC layer establishes the ceiling. FEW and SCT do not; BKN032 is 3,200 ft above the station.",
+          "sourceIds": [
+            "aim-weather"
+          ]
+        },
+        {
+          "id": "D4Q03",
+          "prompt": "Your flight is planned for day 20 at 1700 UTC. A TAF contains FM201600 22015G25KT. Which forecast wind applies after that change begins?",
+          "choices": [
+            "From 220° magnetic, effective at 1600 local time.",
+            "From 220° true at 15 knots, gusting to 25 knots, beginning at 1600 UTC.",
+            "Temporary 25-knot winds only from 1600 to 1700 UTC."
+          ],
+          "answer": 1,
+          "explanation": "FM201600 starts a new prevailing group on day 20 at 1600 UTC. TAF winds use true direction and knots; G25 is the gust.",
+          "sourceIds": [
+            "aim-weather"
+          ]
+        },
+        {
+          "id": "D4Q04",
+          "prompt": "A moist surface layer lies beneath a temperature inversion. Which condition is most consistent with that pattern?",
+          "choices": [
+            "Persistent haze and limited vertical mixing.",
+            "Strong thermal mixing and rapidly clearing haze.",
+            "Widespread towering cumulus caused directly by the inversion."
+          ],
+          "answer": 0,
+          "explanation": "An inversion is stable and limits vertical mixing. Moisture and pollutants can be trapped. Thunderstorm growth instead requires instability, moisture and lift.",
+          "sourceIds": [
+            "study"
+          ]
+        },
+        {
+          "id": "D4Q05",
+          "prompt": "Warm, moist ocean air moves over a colder coastal land surface and fog develops. What type of fog best fits?",
+          "choices": [
+            "Radiation fog.",
+            "Upslope fog.",
+            "Advection fog."
+          ],
+          "answer": 2,
+          "explanation": "Advection fog forms when moist air moves over a colder surface. Radiation fog primarily involves nighttime surface cooling; upslope fog involves lifting along terrain.",
+          "sourceIds": [
+            "study"
+          ]
+        },
+        {
+          "id": "D4Q06",
+          "prompt": "A thunderstorm is nearby, but its rain shaft is outside the operating area. Which assessment is best?",
+          "choices": [
+            "The visible rain edge defines the limit of dangerous turbulence.",
+            "Outflow, lightning and turbulence can extend outside the rain area.",
+            "Remaining below cloud base removes the significant thunderstorm hazards."
+          ],
+          "answer": 1,
+          "explanation": "The visible rain area does not bound the thunderstorm’s hazards. Gust fronts, downdrafts, turbulence and lightning may affect areas outside it.",
+          "sourceIds": [
+            "study",
+            "aim-weather"
+          ]
+        },
+        {
+          "id": "D4Q07",
+          "prompt": "Compared with a cool, dry morning at the same field, a hot, humid afternoon generally produces:",
+          "choices": [
+            "Lower density altitude and better propeller performance.",
+            "The same density altitude unless field elevation changes.",
+            "Higher density altitude and reduced performance margin."
+          ],
+          "answer": 2,
+          "explanation": "Heat and added water vapor decrease air density at otherwise comparable conditions. Higher density altitude generally reduces propeller and aircraft performance.",
+          "sourceIds": [
+            "study"
+          ]
+        },
+        {
+          "id": "D4Q08",
+          "prompt": "Cloud base over the entire planned flight area is 750 ft AGL. With no waiver, what is the highest altitude satisfying the required vertical separation beneath it?",
+          "choices": [
+            "250 ft AGL.",
+            "400 ft AGL.",
+            "500 ft AGL."
+          ],
+          "answer": 0,
+          "explanation": "750 minus the required 500-ft separation equals 250 ft AGL. The usual 400-ft altitude limit does not cancel cloud separation.",
+          "sourceIds": [
+            "part107"
+          ]
+        }
+      ],
+      "shortTitle": "Aviation weather"
+    },
+    {
+      "day": 5,
+      "slug": "run-the-flight",
+      "title": "Run the flight safely",
+      "focus": "Preflight, crew decisions, night vision, emergencies and aircraft condition.",
+      "objectives": [
+        "Build a preflight decision from the actual site, aircraft and crew.",
+        "Recognize human-factor errors before they become flight problems.",
+        "Choose the correct response to lost link, damage or a developing emergency."
+      ],
+      "schedule": [
+        {
+          "minutes": 10,
+          "label": "Recall",
+          "task": "Retest missed weather cards. Explain true versus magnetic and ceiling versus scattered clouds aloud."
+        },
+        {
+          "minutes": 20,
+          "label": "Read and plan",
+          "task": "Read today’s sections and mentally brief a short coastal mapping flight using the preflight checklist."
+        },
+        {
+          "minutes": 20,
+          "label": "Apply",
+          "task": "Complete the eight drills closed book. Explain why the other two choices are weaker."
+        },
+        {
+          "minutes": 10,
+          "label": "Retrieve",
+          "task": "Test the ten cards and write one concrete change that would make a risky flight safe."
+        }
+      ],
+      "sections": [
+        {
+          "id": "d5-preflight",
+          "title": "A flight starts with a decision, not a launch",
+          "paragraphs": [
+            "The remote pilot in command is responsible for the operation. Before flight, assess weather, airspace, restrictions, people, property and other hazards. Confirm working control links, enough available power for the intended operation, and a secure payload that does not harm controllability. A map app or aircraft status screen answers only part of that assessment.",
+            "Define the route, maximum altitude, landing area, alternate landing area and stop conditions. Decide what changes would end the flight: people entering the area, approaching aircraft, deteriorating weather, a link warning or a battery threshold chosen for the mission. Include the return leg and a margin for an unexpected delay."
+          ],
+          "sourceIds": [
+            "part107",
+            "risk"
+          ],
+          "sourceSections": [
+            "14 CFR 107.19 and 107.49"
+          ]
+        },
+        {
+          "id": "d5-crew",
+          "title": "Give the crew specific jobs",
+          "paragraphs": [
+            "Brief everyone directly participating on conditions, hazards, roles and emergency procedures. A visual observer is not required for every ordinary Part 107 flight. If used, the observer must maintain effective communication with the pilot and control operator, see the aircraft as required, and help detect traffic and hazards.",
+            "Use short, unambiguous calls and confirm important instructions. An observer who sees an approaching helicopter should say its location and direction promptly. The remote PIC remains responsible and has final authority, even when the customer, employer or camera operator wants another shot. No person may act as PIC, manipulate controls or serve as observer for more than one drone at a time."
+          ],
+          "sourceIds": [
+            "part107",
+            "risk"
+          ],
+          "sourceSections": [
+            "14 CFR 107.19, 107.31, 107.33 and 107.35"
+          ]
+        },
+        {
+          "id": "d5-human",
+          "title": "Check the pilot as carefully as the aircraft",
+          "paragraphs": [
+            "Use IMSAFE: illness, medication, stress, alcohol, fatigue and emotion. A legal medication may still cause drowsiness or impair coordination. Feeling alert does not cancel its effects. Fatigue, dehydration, illness and stress can reduce attention and judgment; postpone or replace an impaired crew member rather than compensating with confidence.",
+            "Recognize the five hazardous attitudes by the reasoning behind them. Anti-authority dismisses rules; impulsivity acts without thinking; invulnerability assumes an accident will happen to someone else; macho tries to prove ability; resignation gives up responsibility. Their antidotes are deliberate: follow sound rules, slow down, accept that it can happen to you, avoid needless chances, and take action you can control.",
+            "Use PAVE to organize risk: Pilot, Aircraft, enVironment and External pressures. A late delivery or important client belongs in external pressure. Reassess when conditions change rather than treating the first go decision as permanent."
+          ],
+          "sourceIds": [
+            "study",
+            "risk",
+            "aim-physiology"
+          ]
+        },
+        {
+          "id": "d5-night",
+          "title": "At night, legality and vision are separate checks",
+          "paragraphs": [
+            "Ordinary night operation requires the applicable updated knowledge test or training and flashing anti-collision lighting visible for at least three statute miles. A pilot may reduce its intensity for safety, but may not extinguish it. Separate navigation or decorative lights do not automatically meet that requirement.",
+            "Allow roughly 30 minutes for dark adaptation and protect it from bright screens or lights. Off-center viewing helps detect a dim target; staring directly at it can make it harder to see. Scan instead of fixating on one point of light. A stationary light can appear to move in darkness, an illusion called autokinesis. Anti-collision lights do not replace visual line of sight or the ability to judge the aircraft’s position and movement."
+          ],
+          "sourceIds": [
+            "part107",
+            "study",
+            "aim-physiology"
+          ],
+          "sourceSections": [
+            "14 CFR 107.29 and 107.31"
+          ]
+        },
+        {
+          "id": "d5-emergency",
+          "title": "Prepare for the aircraft’s actual lost-link behavior",
+          "paragraphs": [
+            "Know the manufacturer’s lost-link settings before launch: return, hover or land may each create a different hazard. Check home-point location, return altitude, obstacles, airspace and battery capability. Automatic return is not automatically safe. If a malfunction develops, stop the mission and land safely rather than continuing to collect imagery.",
+            "In an in-flight emergency requiring immediate action, the remote PIC may deviate from Part 107 only as far as necessary to meet that emergency. A written deviation report is required if the FAA requests one. That is a different requirement from the 10-calendar-day safety-event report for serious injury, loss of consciousness or qualifying damage to someone else’s property."
+          ],
+          "sourceIds": [
+            "part107",
+            "study"
+          ],
+          "sourceSections": [
+            "14 CFR 107.9, 107.15 and 107.21"
+          ]
+        },
+        {
+          "id": "d5-maintenance",
+          "title": "Inspect, repair, and check again",
+          "paragraphs": [
+            "Before each flight, determine that the system is safe. Inspect propellers, motors, structure, payload attachment, wiring, antennas and batteries. After a hard landing or repair, verify the affected components and required checks before returning to service. A successful motor start does not prove the aircraft is airworthy.",
+            "Follow manufacturer instructions for charging, storage, temperature and service limits. A swollen, damaged or unusually hot battery needs removal from flight service and safe handling according to applicable guidance. There is no universal Part 107 rule that a particular battery percentage is sufficient for every mission. Set a return and landing margin based on the aircraft, load, weather, route and battery condition."
+          ],
+          "sourceIds": [
+            "part107",
+            "study"
+          ],
+          "sourceSections": [
+            "14 CFR 107.15 and 107.49"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "D5C01",
+          "front": "Who has final authority over the drone operation?",
+          "back": "The designated remote pilot in command.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D5C02",
+          "front": "Name the four preflight environment checks in §107.49.",
+          "back": "Weather; airspace and restrictions; people and property; other ground hazards.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D5C03",
+          "front": "Is a visual observer mandatory for every Part 107 flight?",
+          "back": "No. If one is used, visual observation, coordination and effective communication requirements apply.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D5C04",
+          "front": "What does IMSAFE check?",
+          "back": "Illness, medication, stress, alcohol, fatigue and emotion.",
+          "sourceIds": [
+            "study"
+          ]
+        },
+        {
+          "id": "D5C05",
+          "front": "What attitude says “Accidents happen to other people”?",
+          "back": "Invulnerability. The antidote is to recognize that it could happen to you.",
+          "sourceIds": [
+            "study",
+            "risk"
+          ]
+        },
+        {
+          "id": "D5C06",
+          "front": "What does PAVE stand for?",
+          "back": "Pilot, Aircraft, enVironment and External pressures.",
+          "sourceIds": [
+            "risk"
+          ]
+        },
+        {
+          "id": "D5C07",
+          "front": "What is autokinesis?",
+          "back": "A stationary point of light can appear to move when stared at in darkness.",
+          "sourceIds": [
+            "study",
+            "aim-physiology"
+          ]
+        },
+        {
+          "id": "D5C08",
+          "front": "When is a written emergency-deviation report required?",
+          "back": "When the FAA requests it. Deviations are limited to what the emergency requires.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D5C09",
+          "front": "What must you know about lost-link behavior before launch?",
+          "back": "The selected response, home point, return path and altitude, obstacles and power needed to recover safely.",
+          "sourceIds": [
+            "study",
+            "part107"
+          ]
+        },
+        {
+          "id": "D5C10",
+          "front": "Does Part 107 set one universal battery reserve percentage?",
+          "back": "No. Ensure enough available power for the intended flight and plan a suitable margin.",
+          "sourceIds": [
+            "part107"
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "id": "D5Q01",
+          "prompt": "A payload is within the aircraft’s stated weight limit but blocks a cooling opening. What should the remote PIC do?",
+          "choices": [
+            "Fly a shorter route because the total weight is legal.",
+            "Correct the installation and verify safe operation before flight.",
+            "Treat payload installation as the customer’s responsibility."
+          ],
+          "answer": 1,
+          "explanation": "Legal weight alone does not establish safe condition. Payload attachment must not adversely affect flight characteristics or controllability; manufacturer cooling requirements also matter.",
+          "sourceIds": [
+            "part107",
+            "study"
+          ]
+        },
+        {
+          "id": "D5Q02",
+          "prompt": "The camera operator wants to keep filming while the observer reports approaching aircraft. Who makes the final decision to maneuver or land?",
+          "choices": [
+            "The remote PIC.",
+            "The customer who hired the crew.",
+            "The observer, because the observer detected the aircraft."
+          ],
+          "answer": 0,
+          "explanation": "The observer supplies critical information, but the remote PIC remains directly responsible and final authority for the operation. The drone must yield and avoid a collision hazard.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D5Q03",
+          "prompt": "A pilot thinks, “This inspection is routine. A flyaway could happen to inexperienced pilots, but not me.” Which attitude is demonstrated?",
+          "choices": [
+            "Resignation.",
+            "Anti-authority.",
+            "Invulnerability."
+          ],
+          "answer": 2,
+          "explanation": "Invulnerability is the belief that bad outcomes happen to other people. Routine work and prior success do not remove risk.",
+          "sourceIds": [
+            "study",
+            "risk"
+          ]
+        },
+        {
+          "id": "D5Q04",
+          "prompt": "A crew member takes an over-the-counter medicine with a drowsiness warning. What is the best operational response?",
+          "choices": [
+            "Use the crew member only for visual observation, where impairment is less important.",
+            "Assess impairment and do not use the crew member if the condition or medicine interferes with safe operation.",
+            "Proceed if the medicine is available without a prescription."
+          ],
+          "answer": 1,
+          "explanation": "Section 107.17 covers the PIC, control operator, visual observer and direct participants. Over-the-counter availability does not establish fitness for duty.",
+          "sourceIds": [
+            "part107",
+            "aim-physiology"
+          ]
+        },
+        {
+          "id": "D5Q05",
+          "prompt": "During a night flight, the PIC finds the anti-collision light’s intensity is creating a safety problem. Under the ordinary night rule, the PIC may:",
+          "choices": [
+            "Reduce its intensity for safety, but not extinguish it.",
+            "Extinguish it while the aircraft remains below 100 ft AGL.",
+            "Replace it with any steady position light visible to the PIC."
+          ],
+          "answer": 0,
+          "explanation": "Section 107.29 permits a safety-related reduction in intensity but not extinguishing the required anti-collision lighting.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D5Q06",
+          "prompt": "A drone’s return-to-home setting would climb above the site’s ATC-authorized altitude before returning. What is the best action?",
+          "choices": [
+            "Use the default setting because emergency automation overrides operating limits.",
+            "Disable all recovery functions and rely only on the live camera.",
+            "Configure and verify an appropriate lost-link response before launching."
+          ],
+          "answer": 2,
+          "explanation": "The PIC must understand the contingency response and account for obstacles, airspace and power. Default automation is not a substitute for preflight planning.",
+          "sourceIds": [
+            "part107",
+            "study"
+          ]
+        },
+        {
+          "id": "D5Q07",
+          "prompt": "A PIC makes a necessary emergency deviation, and the flight ends without a reportable injury or property-damage event. When must the PIC send a written deviation report?",
+          "choices": [
+            "Within 10 calendar days after every deviation.",
+            "When the FAA requests it.",
+            "Only when an ATC authorization was also violated."
+          ],
+          "answer": 1,
+          "explanation": "Section 107.21 requires a written emergency-deviation report upon FAA request. Section 107.9 has different reporting triggers and a separate 10-day deadline.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D5Q08",
+          "prompt": "After a hard landing, the aircraft starts normally but one propeller has a small crack. What should the PIC do?",
+          "choices": [
+            "Remove it from flight until the defect is corrected and safe condition is verified.",
+            "Use it for low-altitude flight only.",
+            "Conduct one short flight to determine whether the crack affects handling."
+          ],
+          "answer": 0,
+          "explanation": "The aircraft must be in a condition for safe operation before flight. A known propeller defect is not an appropriate condition to test by launching over the operating area.",
+          "sourceIds": [
+            "part107",
+            "study"
+          ]
+        }
+      ],
+      "shortTitle": "Safe operations"
+    },
+    {
+      "day": 6,
+      "slug": "airport-chart-performance",
+      "title": "Read the airport and plan the load",
+      "focus": "Real chart tasks, radio frequencies, traffic patterns, loading and combined planning.",
+      "objectives": [
+        "Find a traffic frequency without confusing it with a weather broadcast.",
+        "Translate chart labels and runway information into an operating decision.",
+        "Combine restrictions, aircraft loading and local hazards into a go/no-go decision."
+      ],
+      "schedule": [
+        {
+          "minutes": 10,
+          "label": "Recall",
+          "task": "Retest yesterday’s missed cards, then write the main operating limits from memory."
+        },
+        {
+          "minutes": 20,
+          "label": "Read the figures",
+          "task": "Open both chart figures. Trace the airport name, traffic frequency, weather frequency and airport elevation with your eye."
+        },
+        {
+          "minutes": 20,
+          "label": "Apply",
+          "task": "Complete the eight drills closed book. Reopen a figure when a question directs you to it."
+        },
+        {
+          "minutes": 10,
+          "label": "Retrieve",
+          "task": "Test the ten cards and repeat one missed chart task without using its answer."
+        }
+      ],
+      "sections": [
+        {
+          "id": "d6-radio",
+          "title": "Traffic and weather use different frequencies",
+          "paragraphs": [
+            "CTAF is the common traffic advisory frequency used for airport advisory practices when there is no operating control tower. ATIS is a repeating airport information broadcast. AWOS and ASOS provide automated weather observations. A weather frequency does not become the traffic frequency just because the tower is closed.",
+            "Identify the label attached to each frequency rather than selecting the first number near an airport. A circled C marks a CTAF. A tower frequency may also serve as CTAF when the tower is closed, but verify the published assignment and operating hours. Monitoring traffic can improve awareness; a radio call does not replace any required ATC authorization."
+          ],
+          "sourceIds": [
+            "aim-airport",
+            "aim-radio",
+            "cug",
+            "part107"
+          ]
+        },
+        {
+          "id": "d6-modern-chart",
+          "title": "Modern FAA chart task: Grand Canyon",
+          "paragraphs": [
+            "Use the September 2026 FAA figure for Grand Canyon National Park Airport (GCN). Find the airport’s communication block and distinguish CTAF from ATIS. The CTAF is 119.0 MHz; 124.3 MHz is ATIS. The adjacent symbols and labels determine the job of a frequency.",
+            "This is a chart-reading exercise using a published training image, not an operational briefing. Before a real flight, obtain current charts, airport information, NOTAMs and restrictions. Historical supplement figures remain useful for practicing symbols, but their dates matter."
+          ],
+          "sourceIds": [
+            "advisory2026",
+            "cug",
+            "aim-airport"
+          ],
+          "figureId": "faa-gcn2026",
+          "figureNote": "FAA September 2026 advisory training figure. Locate GCN, then compare the CTAF marking at 119.0 with the ATIS entry at 124.3. Not for navigation.",
+          "worked": {
+            "prompt": "The tower is closed and you want airport traffic awareness at GCN. Which frequency serves that purpose?",
+            "steps": [
+              "Find the airport communication entries.",
+              "Identify the CTAF marking rather than the ATIS label.",
+              "Select 119.0 MHz for traffic; 124.3 MHz provides ATIS information."
+            ],
+            "answer": "119.0 MHz CTAF.",
+            "trap": "Selecting the weather/information broadcast because it appears near the tower frequency."
+          }
+        },
+        {
+          "id": "d6-chart-26",
+          "title": "Practice separating the numbers",
+          "paragraphs": [
+            "On Figure 26, find Cooperstown (S32), near area 2. The airport data shows elevation 1,424 feet MSL and a longest runway approximately 3,500 feet long. The nearby AWOS frequency is 118.75 MHz. At Barnes County (BAC), near area 5, AWOS-3 is 118.725 MHz. Read carefully: one extra digit can distinguish a different frequency.",
+            "Airport elevations and obstruction tops use MSL. Parentheses beneath an obstruction’s MSL elevation give its height above ground. Near Cooperstown, the obstruction labeled 1707 (250) has a top at 1,707 feet MSL and a height of 250 feet AGL. Do not add these two values; they describe the same top using different reference levels."
+          ],
+          "sourceIds": [
+            "supplement",
+            "cug"
+          ],
+          "figureId": "faa-figure26",
+          "figureNote": "Historical FAA Figure 26. Zoom near area 2 for Cooperstown and 1707 (250); area 5 for Barnes County. This image is a training reference, not a current navigation chart."
+        },
+        {
+          "id": "d6-airport",
+          "title": "Expect aircraft around the runway, not only above it",
+          "paragraphs": [
+            "Runway numbers approximate magnetic heading divided by ten. Runway 27 points approximately 270° magnetic; its reciprocal is runway 09. A standard traffic pattern has left turns unless a different pattern is specified. Upwind, crosswind, downwind, base and final describe the sequence around the runway. A drone must not interfere with airport operations or traffic patterns, even in Class G.",
+            "Yield to all aircraft and remain well clear. Helicopters, agricultural aircraft and other traffic may use low altitudes. Wake vortices form behind lifting wings, tend to sink and drift with the wind, and are especially strong behind aircraft that are heavy, clean and slow. Avoid the wake path rather than expecting propeller wash or small size to make it harmless."
+          ],
+          "sourceIds": [
+            "aim-airport",
+            "aim-wake",
+            "part107"
+          ],
+          "worked": {
+            "prompt": "A north-up diagram shows Runway 18. An airplane is landing southbound using a standard left traffic pattern. Which side is its downwind leg on?",
+            "steps": [
+              "Draw the final approach heading south, approximately 180°.",
+              "A left turn from south points east for crosswind; another left turn points north for downwind.",
+              "The northbound downwind leg is east of the runway. Continue left to westbound base and southbound final."
+            ],
+            "answer": "The left downwind for Runway 18 is east of the runway, heading approximately 360°.",
+            "trap": "Left refers to the airplane’s turns, not the left edge of a north-up page. Actual published patterns and airport procedures can differ."
+          }
+        },
+        {
+          "id": "d6-loading",
+          "title": "A legal weight can still be a poor load",
+          "paragraphs": [
+            "For Part 107’s small-aircraft definition, takeoff weight includes the aircraft, battery and everything carried or attached, and must be less than 55 pounds. The manufacturer may set a lower limit. More weight usually demands more lift and power and reduces flight time or climb margin.",
+            "Center of gravity is where weight acts. Place and secure the load within the manufacturer’s limits. A load too far forward or aft changes control demands; a load that shifts changes them during flight. Moment equals weight multiplied by its arm from a chosen datum; total moment divided by total weight gives center of gravity. Use consistent units.",
+            "Banking in a level coordinated turn requires more lift than straight-and-level flight. As bank angle increases, load factor increases; at 60° bank, the ideal level-turn load factor is 2 G. More demanding maneuvers can therefore consume performance margin even without adding payload.",
+            "A fixed-wing aircraft stalls when its wing exceeds the critical angle of attack. It does not stall at one universal airspeed. Greater load factor raises the stall speed for a given configuration; a heavier or banked aircraft can reach that critical angle at a higher speed. Do not confuse the critical angle with the aircraft’s pitch relative to the horizon."
+          ],
+          "sourceIds": [
+            "study",
+            "part107"
+          ]
+        },
+        {
+          "id": "d6-final-plan",
+          "title": "Check the restrictions for the exact place and time",
+          "paragraphs": [
+            "A prohibited or restricted area requires the applicable using or controlling agency’s permission. A military operations area has a different legal status; it warns of military activity and warrants checking the activity and using caution rather than treating it as a restricted area. Temporary flight restrictions and other NOTAMs can change what is permitted after a chart was printed.",
+            "Before launch, combine current airspace and restrictions, any authorization conditions, weather, people, aircraft condition, load and recovery plan. Passing one check does not excuse another. A clear TFR screen is not an ATC authorization, and an authorization does not make unsafe weather acceptable."
+          ],
+          "sourceIds": [
+            "part107",
+            "aim-special",
+            "tfr"
+          ],
+          "sourceSections": [
+            "14 CFR 107.41–107.49"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "D6C01",
+          "front": "Which frequency is for non-towered airport traffic awareness?",
+          "back": "The published CTAF, not the ATIS, ASOS or AWOS weather frequency.",
+          "sourceIds": [
+            "aim-airport"
+          ]
+        },
+        {
+          "id": "D6C02",
+          "front": "What does a circled C next to a frequency identify?",
+          "back": "A common traffic advisory frequency (CTAF).",
+          "sourceIds": [
+            "cug"
+          ]
+        },
+        {
+          "id": "D6C03",
+          "front": "Does transmitting on CTAF grant permission to enter Class D?",
+          "back": "No. Part 107 still requires prior ATC authorization for Class D operation.",
+          "sourceIds": [
+            "part107",
+            "aim-airport"
+          ]
+        },
+        {
+          "id": "D6C04",
+          "front": "What approximate magnetic heading does runway 18 represent?",
+          "back": "180°. The reciprocal runway is 36, approximately 360°.",
+          "sourceIds": [
+            "aim-airport",
+            "cug"
+          ]
+        },
+        {
+          "id": "D6C05",
+          "front": "What traffic-pattern turn direction is standard unless otherwise specified?",
+          "back": "Left turns.",
+          "sourceIds": [
+            "aim-airport"
+          ]
+        },
+        {
+          "id": "D6C06",
+          "front": "What aircraft condition produces especially strong wake vortices?",
+          "back": "Heavy, clean and slow.",
+          "sourceIds": [
+            "aim-wake"
+          ]
+        },
+        {
+          "id": "D6C07",
+          "front": "What is included in the less-than-55-lb takeoff weight?",
+          "back": "The aircraft and everything onboard or attached, including battery and payload.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D6C08",
+          "front": "How is center of gravity calculated from weights and moments?",
+          "back": "Total moment divided by total weight, using consistent units and datum.",
+          "sourceIds": [
+            "study"
+          ]
+        },
+        {
+          "id": "D6C09",
+          "front": "What happens to load factor as bank angle increases in a level turn?",
+          "back": "It increases. An ideal coordinated 60° level bank requires 2 G.",
+          "sourceIds": [
+            "study"
+          ]
+        },
+        {
+          "id": "D6C10",
+          "front": "Does a clear TFR check establish that controlled-airspace flight is authorized?",
+          "back": "No. TFRs and ATC authorization are separate checks.",
+          "sourceIds": [
+            "part107",
+            "tfr"
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "id": "D6Q01",
+          "prompt": "On FAA Figure 26, what automated weather frequency is listed for Barnes County (BAC), near area 5?",
+          "choices": [
+            "122.8 MHz.",
+            "118.725 MHz.",
+            "118.425 MHz."
+          ],
+          "answer": 1,
+          "explanation": "The BAC entry labels AWOS-3 as 118.725. The nearby 122.8 is CTAF; 118.425 belongs to Jamestown ASOS.",
+          "sourceIds": [
+            "supplement",
+            "cug"
+          ],
+          "figureId": "faa-figure26"
+        },
+        {
+          "id": "D6Q02",
+          "prompt": "On FAA Figure 26, Cooperstown (S32), near area 2, shows 1424 *L 35 122.9. Which pair correctly identifies its airport elevation and approximate longest runway length?",
+          "choices": [
+            "1,424 ft MSL; 3,500 ft.",
+            "1,424 ft AGL; 350 ft.",
+            "3,500 ft MSL; 1,424 ft."
+          ],
+          "answer": 0,
+          "explanation": "Airport elevation is 1,424 ft MSL. The runway-length group 35 means approximately 3,500 feet; do not confuse the two groups.",
+          "sourceIds": [
+            "supplement",
+            "cug"
+          ],
+          "figureId": "faa-figure26"
+        },
+        {
+          "id": "D6Q03",
+          "prompt": "On FAA Figure 26, the obstruction near Cooperstown is labeled 1707 (250). Which statement is correct?",
+          "choices": [
+            "The obstruction is 1,707 ft tall and its base is 250 ft MSL.",
+            "Its top is 1,957 ft MSL after adding the two numbers.",
+            "Its top is 1,707 ft MSL and it stands 250 ft above the ground."
+          ],
+          "answer": 2,
+          "explanation": "The top elevation uses MSL; the parenthesized number is obstruction height AGL. They are not quantities to add.",
+          "sourceIds": [
+            "supplement",
+            "cug"
+          ],
+          "figureId": "faa-figure26"
+        },
+        {
+          "id": "D6Q04",
+          "prompt": "An airport uses runway 14. What is its approximate magnetic direction, and what is the reciprocal runway?",
+          "choices": [
+            "014°; runway 32.",
+            "140°; runway 32.",
+            "140° true; runway 04."
+          ],
+          "answer": 1,
+          "explanation": "A runway number approximates its magnetic direction to the nearest ten degrees. Fourteen means about 140° magnetic; the opposite end differs by 180°, or runway 32.",
+          "sourceIds": [
+            "aim-airport",
+            "cug"
+          ]
+        },
+        {
+          "id": "D6Q05",
+          "prompt": "An aircraft passes the takeoff-weight check, but its payload can slide rearward. Why must that be corrected before flight?",
+          "choices": [
+            "A moving payload can shift the center of gravity and affect controllability.",
+            "Center of gravity matters only to fixed-wing aircraft.",
+            "A payload affects stability only if total takeoff weight exceeds 55 lb."
+          ],
+          "answer": 0,
+          "explanation": "Payload must be secure and must not adversely affect flight characteristics or controllability. Center-of-gravity limits can matter even when total weight is within limits.",
+          "sourceIds": [
+            "study",
+            "part107"
+          ]
+        },
+        {
+          "id": "D6Q06",
+          "prompt": "An aircraft and payload have a combined weight of 12 lb and a total moment of 144 lb-in from the chosen datum. Where is their center of gravity?",
+          "choices": [
+            "132 inches from the datum.",
+            "1.2 inches from the datum.",
+            "12 inches from the datum."
+          ],
+          "answer": 2,
+          "explanation": "CG = total moment ÷ total weight = 144 lb-in ÷ 12 lb = 12 inches from the same datum.",
+          "sourceIds": [
+            "study"
+          ]
+        },
+        {
+          "id": "D6Q07",
+          "prompt": "A pilot increases bank angle while maintaining a coordinated level turn. What generally happens to the required lift and load factor?",
+          "choices": [
+            "Both decrease.",
+            "Both increase.",
+            "Both remain constant because altitude is constant."
+          ],
+          "answer": 1,
+          "explanation": "Only the vertical component of lift supports weight in a bank. More total lift is required to hold altitude, increasing load factor.",
+          "sourceIds": [
+            "study"
+          ]
+        },
+        {
+          "id": "D6Q08",
+          "prompt": "The chart shows a military operations area, and a separate TFR check is clear. Which conclusion is best?",
+          "choices": [
+            "The MOA is automatically a prohibited area for all civil aircraft.",
+            "The clear TFR check proves the MOA is inactive.",
+            "Check MOA activity and exercise caution; its status differs from a restricted area."
+          ],
+          "answer": 2,
+          "explanation": "An MOA separates certain military activity from IFR traffic and alerts VFR pilots to that activity. It is not the same legal designation as prohibited or restricted airspace, and a clear TFR result does not determine its activity.",
+          "sourceIds": [
+            "aim-special",
+            "part107",
+            "tfr"
+          ]
+        }
+      ],
+      "shortTitle": "Airports and loading"
+    },
+    {
+      "day": 7,
+      "slug": "checkpoint-and-next-step",
+      "title": "Check what you can actually recall",
+      "focus": "Fresh mixed questions, explainable answers and a decision about further practice.",
+      "objectives": [
+        "Answer a fresh mixed checkpoint without notes or feedback between questions.",
+        "Separate a confident answer from a correct guess.",
+        "Use missed concepts to decide what to review before the separate full-length mock."
+      ],
+      "schedule": [
+        {
+          "minutes": 10,
+          "label": "Recall",
+          "task": "Review only previously missed cards. Stop looking at answer keys before beginning the checkpoint."
+        },
+        {
+          "minutes": 20,
+          "label": "Checkpoint",
+          "task": "Complete all twenty fresh questions closed book. Mark any answer you guessed, even if it seems plausible."
+        },
+        {
+          "minutes": 20,
+          "label": "Repair",
+          "task": "Review explanations. For each miss or lucky guess, write the rule in one sentence and explain why the other choices fail."
+        },
+        {
+          "minutes": 10,
+          "label": "Plan",
+          "task": "Retest the weak-point cards and schedule a separate uninterrupted two-hour full practice exam."
+        }
+      ],
+      "sections": [
+        {
+          "id": "d7-meaning",
+          "title": "Use the score as evidence, not a prediction",
+          "paragraphs": [
+            "This twenty-question checkpoint is original practice, not an FAA test or a complete readiness measurement. Take it without notes and avoid viewing explanations until you finish all twenty. Record guesses separately. A correct guess still identifies material that needs retrieval practice.",
+            "The real UAG exam requires 70% on its 60 scored questions. This checkpoint is shorter and cannot predict your real score. An 85% target here means 17 of 20; it is a study target chosen for a margin, not an FAA requirement. Do not convert a familiar question-bank score into a guarantee of passing."
+          ],
+          "sourceIds": [
+            "psi"
+          ]
+        },
+        {
+          "id": "d7-repair",
+          "title": "Turn mistakes into short rules",
+          "paragraphs": [
+            "For every missed item, label the cause: unknown rule, confused unit or reference, misread chart, or rushed decision. Write the correct rule in one plain sentence. Then cover it and reproduce it from memory. Retest that item later using changed numbers or a different chart location rather than memorizing its letter.",
+            "Check six common traps before finishing: cloud clearance, MSL versus AGL, true wind direction, inversions, calendar-month recency, and operations-over-people categories. Explain each without looking at the choices. The checkpoint returns to these ideas with different wording or values."
+          ],
+          "sourceIds": [
+            "part107",
+            "cug",
+            "aim-weather",
+            "study"
+          ]
+        },
+        {
+          "id": "d7-next",
+          "title": "The full mock needs its own two hours",
+          "paragraphs": [
+            "After this one-hour lesson, reserve another session for Exam A or Exam B with the two-hour timer, no notes and no answer lookup. Keep the other form fresh if you have not already taken it. Review weak topics after the score; do not immediately repeat the same form and treat memorized answers as improvement.",
+            "One hour daily for seven days is a first learning cycle, not an assured amount of preparation. If chart interpretation or several rules still require notes, add targeted sessions and another fresh assessment. Aim for roughly 85% or higher on fresh full-length practice, with explanations you can give without prompts. A lower result means more review, not inability to pass."
+          ],
+          "sourceIds": [
+            "psi",
+            "acs"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "D7C01",
+          "front": "Cloud base is 900 ft AGL. With ordinary limits, what is the maximum height beneath it?",
+          "back": "400 ft AGL: 900 − 500 = 400, also satisfying the usual 400-ft ceiling.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D7C02",
+          "front": "A Class C shelf says 50 over 20. What is its floor?",
+          "back": "2,000 ft MSL. These charted Class C limits use hundreds of feet MSL.",
+          "sourceIds": [
+            "cug"
+          ]
+        },
+        {
+          "id": "D7C03",
+          "front": "Which reference does METAR wind use?",
+          "back": "True north; the direction is where the wind comes from.",
+          "sourceIds": [
+            "aim-weather"
+          ]
+        },
+        {
+          "id": "D7C04",
+          "front": "Why can an inversion worsen haze?",
+          "back": "Stable air suppresses vertical mixing and can trap pollutants and moisture.",
+          "sourceIds": [
+            "study"
+          ]
+        },
+        {
+          "id": "D7C05",
+          "front": "A qualifying test was completed May 10, 2025. When does its 24-calendar-month recency end?",
+          "back": "May 31, 2027, unless another qualifying test or training renews recency.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D7C06",
+          "front": "Which operations-over-people category requires an airworthiness certificate?",
+          "back": "Category 4.",
+          "sourceIds": [
+            "part107",
+            "oopp"
+          ]
+        },
+        {
+          "id": "D7C07",
+          "front": "Can Category 3 operations fly over an open-air assembly?",
+          "back": "No. Category 3 prohibits operations over open-air assemblies.",
+          "sourceIds": [
+            "part107",
+            "oopp"
+          ]
+        },
+        {
+          "id": "D7C08",
+          "front": "What does the required UAG passing mark mean numerically?",
+          "back": "At least 42 correct out of 60 scored questions. Five additional questions are unscored.",
+          "sourceIds": [
+            "psi"
+          ]
+        },
+        {
+          "id": "D7C09",
+          "front": "What causes a fixed-wing aircraft to stall?",
+          "back": "Exceeding the wing’s critical angle of attack. There is no single stall speed for every weight, bank, and configuration.",
+          "sourceIds": [
+            "study"
+          ]
+        },
+        {
+          "id": "D7C10",
+          "front": "How long after a permanent mailing-address change can a pilot exercise certificate privileges without notifying the FAA?",
+          "back": "Up to 30 days. After that, the pilot cannot exercise the privileges until the FAA has been notified of the address change.",
+          "sourceIds": [
+            "part107"
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "id": "D7Q01",
+          "prompt": "A mapping aircraft weighs 51 lb ready to fly. A 4-lb sensor will be attached before takeoff. May that 55-lb combination be operated under ordinary Part 107 small-UAS rules?",
+          "choices": [
+            "Yes, because the aircraft alone weighs less than 55 lb.",
+            "No, the complete takeoff weight must be less than 55 lb.",
+            "Yes, provided the sensor belongs to the operator."
+          ],
+          "answer": 1,
+          "explanation": "The definition includes everything onboard or attached at takeoff and requires less than 55 pounds. Exactly 55 lb does not satisfy it.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D7Q02",
+          "prompt": "A pilot completed qualifying recurrent training on February 6, 2026. With no later qualifying event, through what date does that satisfy knowledge recency?",
+          "choices": [
+            "February 6, 2028.",
+            "January 31, 2028.",
+            "February 29, 2028."
+          ],
+          "answer": 2,
+          "explanation": "Recency is measured in 24 calendar months, not the anniversary day. February 2028 has 29 days, so the period extends through February 29, 2028.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D7Q03",
+          "prompt": "A drone flight damages a neighbor’s fence. Repair cost is $550, and the fence’s fair market value is $900. Nobody is injured. What FAA reporting duty applies?",
+          "choices": [
+            "Report the event no later than 10 calendar days after the operation.",
+            "No report, because no person was injured.",
+            "Report only if the aircraft is also a total loss."
+          ],
+          "answer": 0,
+          "explanation": "For property other than the drone, the §107.9 exception does not apply when repair exceeds $500 and the property’s value is above $500. The FAA deadline is 10 calendar days.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D7Q04",
+          "prompt": "A current remote pilot plans a night flight under the ordinary rule. Which aircraft lighting is required?",
+          "choices": [
+            "A steady white lamp visible to the operator at launch.",
+            "Flashing anti-collision lighting visible for at least 3 statute miles.",
+            "Navigation lights visible for at least 1 statute mile."
+          ],
+          "answer": 1,
+          "explanation": "Section 107.29 requires anti-collision lighting visible for at least three statute miles with a sufficient flash rate. Required updated testing or training also applies.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D7Q05",
+          "prompt": "Without a waiver, a person may act as visual observer for how many simultaneously operating small unmanned aircraft?",
+          "choices": [
+            "Two, if both are on the same route.",
+            "Any number within unaided visual range.",
+            "One."
+          ],
+          "answer": 2,
+          "explanation": "Section 107.35 prohibits a person from manipulating controls or acting as PIC or visual observer in more than one unmanned-aircraft operation at the same time.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D7Q06",
+          "prompt": "Which statement about Category 3 operations is correct?",
+          "choices": [
+            "They may not operate over an open-air assembly of human beings.",
+            "They may operate over open-air assemblies if Remote ID is functioning.",
+            "They require an FAA airworthiness certificate for each aircraft."
+          ],
+          "answer": 0,
+          "explanation": "Category 3 prohibits operation over open-air assemblies. Remote ID does not remove that prohibition; Category 4 is the category with an airworthiness certificate requirement.",
+          "sourceIds": [
+            "part107",
+            "oopp"
+          ]
+        },
+        {
+          "id": "D7Q07",
+          "prompt": "A pilot uses a Remote ID broadcast module rather than a standard Remote ID aircraft. Which additional operating condition applies?",
+          "choices": [
+            "Operations are permitted beyond visual line of sight if the module is broadcasting.",
+            "The person manipulating the controls must be able to see the aircraft throughout the operation.",
+            "The module replaces the need to register an aircraft operated under Part 107."
+          ],
+          "answer": 1,
+          "explanation": "The broadcast-module pathway requires the person manipulating controls to be able to see the aircraft throughout the operation. It does not grant BVLOS permission or replace registration.",
+          "sourceIds": [
+            "part89",
+            "rid"
+          ]
+        },
+        {
+          "id": "D7Q08",
+          "prompt": "A flight is clear of people, but its reported groundspeed is 90 knots. Under ordinary Part 107 limits, what is the correct assessment?",
+          "choices": [
+            "It is permitted because 90 is below the 100-knot limit.",
+            "It is permitted only if airspeed is below 87 knots.",
+            "It exceeds the 87-knot maximum groundspeed."
+          ],
+          "answer": 2,
+          "explanation": "The limit is 87 knots, equivalent to 100 mph, and applies to groundspeed. Do not substitute knots for miles per hour or airspeed for groundspeed.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D7Q09",
+          "prompt": "A person without a remote pilot certificate will manipulate the controls. Which ordinary Part 107 arrangement is allowed?",
+          "choices": [
+            "Direct supervision by a qualified remote PIC who can immediately take direct control.",
+            "Supervision by a remote PIC reachable by telephone.",
+            "Independent operation after completing the recreational TRUST test."
+          ],
+          "answer": 0,
+          "explanation": "Section 107.12 allows a noncertificated control operator under direct supervision when the remote PIC can immediately take direct control. TRUST is not a remote pilot certificate.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D7Q10",
+          "prompt": "Which operation from a moving boat can qualify under ordinary Part 107 moving-vehicle provisions, assuming all other requirements are met?",
+          "choices": [
+            "Flying over a busy marina to transport a customer’s parcel for hire.",
+            "Flying over a sparsely populated area without transporting another person’s property for compensation or hire.",
+            "Flying over any area if the boat remains below 10 knots."
+          ],
+          "answer": 1,
+          "explanation": "The moving-land-or-water-vehicle provision requires a sparsely populated area and excludes transporting another person’s property for compensation or hire. Boat speed is not the controlling condition.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D7Q11",
+          "prompt": "A Class C outer shelf is labeled 60 over 25. What is its charted lower boundary?",
+          "choices": [
+            "2,500 ft AGL.",
+            "6,000 ft MSL.",
+            "2,500 ft MSL."
+          ],
+          "answer": 2,
+          "explanation": "Class C shelf figures are in hundreds of feet MSL. Twenty-five means 2,500 ft MSL; 60 is its 6,000-ft MSL top.",
+          "sourceIds": [
+            "cug",
+            "aim-airspace"
+          ]
+        },
+        {
+          "id": "D7Q12",
+          "prompt": "Your site is inside airport-designated Class E surface airspace. You plan to stay at 80 ft AGL. What is required under §107.41?",
+          "choices": [
+            "Prior ATC authorization.",
+            "Only a CTAF announcement.",
+            "No authorization because the flight is below 100 ft AGL."
+          ],
+          "answer": 0,
+          "explanation": "The low planned altitude does not remove the §107.41 requirement inside the relevant Class E airport surface area. CTAF calls do not provide authorization.",
+          "sourceIds": [
+            "part107",
+            "aim-airspace"
+          ]
+        },
+        {
+          "id": "D7Q13",
+          "prompt": "A UAS Facility Map grid shows 200 feet for your site, but no authorization has been issued. What does that map value mean?",
+          "choices": [
+            "You may fly automatically up to 200 ft AGL.",
+            "It informs authorization processing; it is not itself an authorization.",
+            "All aircraft are restricted to 200 ft MSL in that grid."
+          ],
+          "answer": 1,
+          "explanation": "UAS Facility Map values assist authorization processing. The pilot must obtain the required authorization and comply with its conditions; the map is not permission.",
+          "sourceIds": [
+            "laanc",
+            "part107"
+          ]
+        },
+        {
+          "id": "D7Q14",
+          "prompt": "In Class G at a non-towered airport, a drone would cross the final approach path as an airplane approaches. Which action is correct?",
+          "choices": [
+            "Continue because controlled-airspace authorization is not required.",
+            "Announce the drone on CTAF and continue if no reply is received.",
+            "Yield and remain well clear without interfering with airport traffic."
+          ],
+          "answer": 2,
+          "explanation": "Class G does not waive the duties to yield to aircraft and avoid interference with airport operations and traffic patterns. Radio silence is not clearance.",
+          "sourceIds": [
+            "part107",
+            "aim-airport"
+          ]
+        },
+        {
+          "id": "D7Q15",
+          "prompt": "An observation contains 09008KT SCT005 OVC011. Which combination is correct?",
+          "choices": [
+            "Wind from 090° true at 8 knots; ceiling 1,100 ft above the station.",
+            "Wind from 090° magnetic at 8 knots; ceiling 500 ft above the station.",
+            "Wind toward 090° true at 8 knots; ceiling 1,100 ft MSL."
+          ],
+          "answer": 0,
+          "explanation": "METAR wind uses direction from true north. SCT005 is not a ceiling; OVC011 gives the ceiling at 1,100 ft above the station.",
+          "sourceIds": [
+            "aim-weather"
+          ]
+        },
+        {
+          "id": "D7Q16",
+          "prompt": "During preflight, the control link repeatedly disconnects, then reconnects. The route is short. What should the PIC do?",
+          "choices": [
+            "Launch close to home and check whether the fault persists in flight.",
+            "Resolve the link problem and verify safe system operation before launching.",
+            "Add a visual observer and rely on the observer to compensate."
+          ],
+          "answer": 1,
+          "explanation": "Preflight requires ensuring that control links work properly and that the system is safe. A short route or observer does not repair an unreliable command link.",
+          "sourceIds": [
+            "part107"
+          ]
+        },
+        {
+          "id": "D7Q17",
+          "prompt": "A client says the crew must finish before the next appointment, and the pilot skips the weather review to save time. Which PAVE element best describes the source of pressure?",
+          "choices": [
+            "Aircraft.",
+            "Pilot.",
+            "External pressures."
+          ],
+          "answer": 2,
+          "explanation": "Schedule and customer pressure are external pressures. PAVE helps the PIC identify them instead of allowing them to displace essential preflight checks.",
+          "sourceIds": [
+            "risk",
+            "part107"
+          ]
+        },
+        {
+          "id": "D7Q18",
+          "prompt": "During night scanning, one stationary light appears to wander after you stare at it. Which explanation best fits?",
+          "choices": [
+            "Autokinesis.",
+            "A temperature inversion.",
+            "Wake turbulence."
+          ],
+          "answer": 0,
+          "explanation": "Autokinesis is the apparent movement of a stationary point of light in darkness. Use scanning and other cues rather than fixating on one light.",
+          "sourceIds": [
+            "aim-physiology",
+            "study"
+          ]
+        },
+        {
+          "id": "D7Q19",
+          "prompt": "A drone develops a persistent motor warning while flying normally. What is the safest operational decision?",
+          "choices": [
+            "Finish the planned line because handling is still normal.",
+            "Discontinue the mission and land safely while control remains available.",
+            "Increase altitude to create more room for troubleshooting."
+          ],
+          "answer": 1,
+          "explanation": "A known or suspected unsafe condition calls for discontinuing flight. Preserve a safe landing option rather than spending the remaining margin on the original mission.",
+          "sourceIds": [
+            "part107",
+            "study"
+          ]
+        },
+        {
+          "id": "D7Q20",
+          "prompt": "A small drone approaches the flight path of a heavy, slow aircraft. Which wake-turbulence assumption is sound?",
+          "choices": [
+            "The drone’s low weight lets it follow closer without a significant wake effect.",
+            "Wake vortices remain fixed on the aircraft’s exact centerline without wind drift.",
+            "Strong wake vortices can sink and drift, so avoid the wake path and remain well clear."
+          ],
+          "answer": 2,
+          "explanation": "Heavy, clean, slow aircraft generate especially strong vortices. The vortices tend to sink and drift with wind; a small drone remains vulnerable.",
+          "sourceIds": [
+            "aim-wake",
+            "part107"
+          ]
+        }
+      ],
+      "shortTitle": "Mixed checkpoint"
+    }
+  ]
+}

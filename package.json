@@ -2,5 +2,5 @@
   "name": "part107-practice",
   "private": true,
   "type": "module",
-  "scripts": { "test": "node --test tests/*.test.js", "check": "node --check app.js && node --check core.js" }
+  "scripts": { "test": "node --test tests/*.test.js", "check": "node --check app.js && node --check core.js && node --check study.js && node --check study-core.js" }
 }

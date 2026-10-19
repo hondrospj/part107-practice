@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101b2b">
+  <meta name="description" content="Seven Part 107 lessons with worked FAA charts, recall cards, short practice quizzes and a downloadable study guide.">
+  <title>Part 107 Study Guide</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="study.css">
+  <script type="module" src="study.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="brand" href="./" aria-label="Part 107 Practice home"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="m4 20 20-13-7 17-4-8-9 4Z"/><path d="m13 16 11-9"/></svg><span>Part 107<span class="brand-light"> / Study</span></span></a><nav aria-label="Main"><a href="./">Practice exams</a><a href="study.html" aria-current="page">Study guide</a><a href="downloads/part107-study-guide.pdf" target="_blank" rel="noopener">Download PDF ↗</a></nav></header>
+  <main id="main" tabindex="-1">
+    <section class="study-intro"><p class="eyebrow">FAA REMOTE PILOT · SEVEN LESSONS</p><h1>One lesson a day.</h1><p>Learn the rule, explain it from memory, then use it on a new question.</p><div class="study-actions"><a class="primary" href="#day-1">Start Day 1 →</a><button class="outline" id="reviewDue" disabled>Review due cards <span id="dueCount">0</span></button><button class="text-button" id="mistakesButton" disabled>My mistakes &amp; guesses</button></div></section>
+    <details class="study-plan"><summary>How to use your hour</summary><div class="details-body"><div class="hour-plan"><p><strong>10 min</strong>Recall earlier material</p><p><strong>20 min</strong>Learn today’s concepts</p><p><strong>20 min</strong>Apply them to questions</p><p><strong>10 min</strong>Correct and repeat</p></div><p>Try answering cards aloud before revealing the back. A correct guess still needs review. Cards you mark “Got it” return after one day, then three, then seven; “Need practice” keeps them due.</p><p>Seven hours is a first preparation cycle. Reserve an additional <strong>uninterrupted two-hour block</strong> for a fresh full practice exam. Use the results to decide whether you need more study. An 85% practice target is a preparation goal, not an FAA rule or a passing guarantee.</p><p>The current exam has 60 scored questions and five unscored questions, with two hours total and a 70% passing score. The lessons emphasize regulations, operations and airspace, while including weather and performance.</p><p>From October 26, 2026, UAG can include chart images absent from the printed supplement. The September FAA examples are included in the lessons.</p><div class="source-links"><a href="https://media.psiexams.com/faa/UAG_Information_Bulletin.pdf" target="_blank" rel="noopener">PSI exam outline ↗</a><a href="https://www.faa.gov/training_testing/testing/September_2026_Special_Edition.pdf" target="_blank" rel="noopener">FAA chart update ↗</a><a href="downloads/part107-quizlet-cards.tsv" download>Download cards for Quizlet ↗</a></div></div></details>
+    <p id="studyLoading" class="loading" role="status">Loading the study guide…</p>
+    <div id="studyApp" hidden>
+      <div class="study-topline"><h2>Your week</h2><span id="lessonProgress">0 of 7 lessons reviewed</span></div>
+      <nav id="dayNav" class="day-nav" aria-label="Study days"></nav>
+      <section id="lessonPanel" class="study-panel" aria-labelledby="lessonTitle">
+        <div class="lesson-heading"><div><p id="lessonDay" class="eyebrow"></p><h2 id="lessonTitle" tabindex="-1"></h2><p id="lessonFocus" class="muted"></p></div><label class="reviewed-toggle"><input id="lessonReviewed" type="checkbox">Lesson reviewed</label></div>
+        <div class="study-tabs" role="tablist" aria-label="Lesson mode"><button id="readTab" role="tab" aria-selected="true" aria-controls="readPanel">Read &amp; work examples</button><button id="cardsTab" role="tab" aria-selected="false" aria-controls="cardsPanel">Recall cards</button><button id="practiceTab" role="tab" aria-selected="false" aria-controls="practicePanel">Practice</button></div>
+        <section id="readPanel" role="tabpanel" aria-labelledby="readTab"><div id="lessonSchedule" class="lesson-schedule"></div><div class="lesson-objectives"><h3>Be able to</h3><ul id="lessonObjectives"></ul></div><div id="lessonContent"></div><div class="lesson-end"><button id="readToCards" class="primary">Try the recall cards →</button><p>“Lesson reviewed” records your own progress. It does not certify that you have mastered the material.</p></div></section>
+        <section id="cardsPanel" role="tabpanel" aria-labelledby="cardsTab" hidden><div id="cardHost"></div></section>
+        <section id="practicePanel" role="tabpanel" aria-labelledby="practiceTab" hidden><div id="practiceHost"></div></section>
+      </section>
+      <section id="mistakesPanel" class="study-panel" aria-labelledby="mistakesTitle" hidden><div class="lesson-heading"><div><p class="eyebrow">REVIEW</p><h2 id="mistakesTitle" tabindex="-1">My mistakes &amp; guesses</h2><p class="muted">Wrong answers and correct guesses return here until you answer them correctly without guessing.</p></div><button id="backToLesson" class="outline">Back to lesson</button></div><div id="mistakesList"></div></section>
+    </div>
+  </main>
+  <footer class="site-footer"><span>Independent study guide · Sources checked October 19, 2026</span><span>Progress stays in this browser.</span></footer>
+  <div id="studyNotice" role="status" hidden></div>
+  <dialog id="figureDialog" class="figure-dialog" aria-labelledby="figureTitle"><div class="figure-dialog-heading"><h2 id="figureTitle">Chart</h2><button id="closeFigure" aria-label="Close chart" class="icon-button">×</button></div><div class="figure-tools"><label>Zoom <input id="figureZoom" type="range" min="100" max="300" step="25" value="100"></label><a id="figureFullLink" target="_blank" rel="noopener">Open image ↗</a></div><div class="figure-scroll"><img id="largeFigure" alt=""></div><p id="figureCaption" class="figure-caption"></p></dialog>
+  <noscript><p class="noscript">Enable JavaScript for interactive lessons, or download the PDF from the link above.</p></noscript>
+</body>
+</html>

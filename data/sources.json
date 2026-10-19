@@ -154,5 +154,17 @@
     "title": "FAA Washington, D.C. Airspace",
     "url": "https://www.faa.gov/uas/resources/community_engagement/no_drone_zone/dc",
     "verified": "2026-10-19"
+  },
+  {
+    "id": "faa-e-authorizations",
+    "title": "FAA Order 7210.3, 19-6-1 — Part 107 airspace authorizations",
+    "url": "https://www.faa.gov/air_traffic/publications/atpubs/foa_html/chap19_section_6.html",
+    "verified": "2026-10-19"
+  },
+  {
+    "id": "matrix",
+    "title": "FAA Airman Knowledge Testing Matrix, September 25, 2026",
+    "url": "https://www.faa.gov/training_testing/testing/testing_matrix",
+    "verified": "2026-10-19"
   }
 ]

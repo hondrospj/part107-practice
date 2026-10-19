@@ -1,6 +1,6 @@
 # Part 107 Practice
 
-Two original UAG practice exams with automatic grading, FAA chart figures, a two-hour timer, and answer review.
+Two original UAG practice exams and a seven-day study guide with automatic grading, FAA chart figures, recall cards, and answer review.
 
 ## Take an exam
 
@@ -9,6 +9,18 @@ Open [Part 107 Practice](https://hondrospj.github.io/part107-practice/), choose 
 Answers and the deadline save in the current browser. Closing or refreshing the page does not stop the timer. Results show every missed answer, an explanation, primary reference links, and a topic breakdown. **Copy results** produces a short report to paste into the chat; **Download results** saves the complete attempt as JSON.
 
 The forms follow the current PSI scored-question allocation, rounded to whole items: regulations 29, airspace 12, weather 3, loading and performance 1, operations 15. The extra questions simulate the pacing of the unscored-item format; they are original practice questions, not actual FAA validation items.
+
+## Study for an hour a day
+
+Open the [Study guide](https://hondrospj.github.io/part107-practice/study.html). Seven 60-minute lessons cover regulations, airspace and charts, weather, safe operations, airports, and loading. Each lesson includes worked examples, ten recall cards, and practice questions. The first six lessons give immediate explanations; the 20-question final checkpoint reveals answers after completion. There are 70 cards and 68 original study questions in total. The study prompts are separate from the full-exam prompts.
+
+Cards rated “Got it” return after one day, then three, then seven; “Need practice” leaves a card due and repeats it once in the current session. Wrong answers and correct guesses stay in a review list. Lesson completion is self-reported. Progress remains in local browser storage, separate from exam attempts.
+
+The [printable PDF](https://hondrospj.github.io/part107-practice/downloads/part107-study-guide.pdf) includes lessons, practice, answer explanations, FAA figures, and primary references. The [Quizlet import file](https://hondrospj.github.io/part107-practice/downloads/part107-quizlet-cards.tsv) contains one tab-separated term/definition pair per line. These are original cards, not copied private Quizlet sets. Use a tab between fields and a new line between cards when importing.
+
+Seven hours is a first preparation cycle. Reserve a separate uninterrupted two-hour block for a fresh full exam, then add focused study where needed. Neither completion nor a familiar-bank score guarantees a real-test result.
+
+To regenerate the PDF, run `tools/build_study_pdf.py` with Python, ReportLab, and pypdf. The authoritative guide content is `data/study.json`.
 
 ## Real-test requirements
 

@@ -1,8 +1,8 @@
 [
   {
     "id": "faa-figure22",
-    "title": "FAA Figure 22 \u2014 Sectional chart",
-    "caption": "Northern Idaho sectional excerpt; Sandpoint, Coeur d\u2019Alene and nearby terrain. Reproduced from FAA-CT-8080-2H (2018), Appendix 2. Historical training figure; not for navigation.",
+    "title": "FAA Figure 22 — Sectional chart",
+    "caption": "Northern Idaho sectional excerpt; Sandpoint, Coeur d’Alene and nearby terrain. Reproduced from FAA-CT-8080-2H (2018), Appendix 2. Historical training figure; not for navigation.",
     "src": "assets/figures/faa-figure22.png",
     "fullUrl": "https://www.faa.gov/training_testing/testing/supplements/media/sport_rec_private_akts.pdf#page=55",
     "sourceId": "supplement",
@@ -10,7 +10,7 @@
   },
   {
     "id": "faa-figure26",
-    "title": "FAA Figure 26 \u2014 Sectional chart",
+    "title": "FAA Figure 26 — Sectional chart",
     "caption": "North Dakota sectional excerpt; Jamestown, Cooperstown and restricted areas. Reproduced from FAA-CT-8080-2H (2018), Appendix 2. Historical training figure; not for navigation.",
     "src": "assets/figures/faa-figure26.png",
     "fullUrl": "https://www.faa.gov/training_testing/testing/supplements/media/sport_rec_private_akts.pdf#page=59",
@@ -19,11 +19,29 @@
   },
   {
     "id": "faa-figure20",
-    "title": "FAA Figure 20 \u2014 Sectional chart",
+    "title": "FAA Figure 20 — Sectional chart",
     "caption": "Virginia and North Carolina sectional excerpt; Norfolk Class C and nearby airports. Reproduced from FAA-CT-8080-2H (2018), Appendix 2. Historical training figure; not for navigation.",
     "src": "assets/figures/faa-figure20.png",
     "fullUrl": "https://www.faa.gov/training_testing/testing/supplements/media/sport_rec_private_akts.pdf#page=53",
     "sourceId": "supplement",
     "page": 53
+  },
+  {
+    "id": "faa-miv2026",
+    "title": "Millville Municipal — FAA September 2026 sample",
+    "caption": "Original FAA public sample chart: Washington sectional, June 12–August 7, 2025. Published in the September 2026 advisory, page 9. Training image; not for navigation.",
+    "src": "assets/figures/millville-faa-chart.png",
+    "fullUrl": "https://www.faa.gov/training_testing/testing/September_2026_Special_Edition.pdf#page=9",
+    "sourceId": "advisory2026",
+    "page": 9
+  },
+  {
+    "id": "faa-gcn2026",
+    "title": "Grand Canyon National Park — FAA September 2026 sample",
+    "caption": "Original FAA public sample chart: Las Vegas sectional, June 12–August 7, 2025. Published in the September 2026 advisory, page 10. Training image; not for navigation.",
+    "src": "assets/figures/grand-canyon-faa-chart.png",
+    "fullUrl": "https://www.faa.gov/training_testing/testing/September_2026_Special_Edition.pdf#page=10",
+    "sourceId": "advisory2026",
+    "page": 10
   }
 ]
